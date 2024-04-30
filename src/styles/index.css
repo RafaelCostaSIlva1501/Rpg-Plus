@@ -1,0 +1,453 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: "Open Sans", sans-serif;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+body {
+    max-width: 100vw;
+    background-color: #1c1c1f;
+}
+
+.header-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+
+    width: 100%;
+
+    padding: 10px;
+
+    background: linear-gradient(to bottom, #000000, #00000000);
+}
+
+.header-home button {
+    background: none;
+    border: none;
+}
+
+.header-home button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    align-items: flex-end;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: inset 0px -10px 50px #0000009c;
+
+    height: 50vh;
+}
+
+.container-recomend {
+    width: 250px;
+    margin: 25px;
+}
+
+.container-recomend img {
+    width: 200px;
+}
+
+.container-recomend p {
+    font-size: 0.8rem;
+
+    margin-bottom: 5px;
+}
+
+.container-recomend-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.container-recomend-btn button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1px 5px;
+    border-radius: 2px;
+
+    border: none;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.watch-btn {
+    color: #000000;
+}
+
+.watch-btn span {
+    color: #000000;
+}
+
+.watch-btn:hover {
+    background-color: #f0f8ff9c;
+}
+
+.add-list-btn {
+    background-color: #0000009a;
+    color: #f0f8ff;
+    width: 100%;
+}
+
+.add-list-btn span {
+    color: #f0f8ff;
+}
+
+.add-list-btn:hover {
+    background-color: #00000065;
+}
+
+.container-catalog {
+    display: flex;
+    flex-direction: column;
+
+    height: max-content;
+    padding: 10px;
+}
+
+.container-catalog h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.catalog {
+    position: relative;
+}
+
+.catalog-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    height: 100%;
+
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+
+    background-color: #0000002d;
+    border: none;
+
+    cursor: pointer;
+}
+
+.catalog-btn:hover {
+    background-color: #0000005b;
+    transition: background-color 0.3s;
+}
+
+.catalog-btn-prev {
+    left: 0;
+}
+
+.catalog-btn-next {
+    right: 0;
+}
+
+.catalog-img {
+    width: 170px;
+    min-width: 170px;
+    height: 100px;
+
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.catalog-items {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 10px;
+
+    overflow-x: auto;
+}
+
+.catalog-items::-webkit-scrollbar {
+    height: 0;
+}
+
+.catalog-img:hover > .rpg-info {
+    display: flex;
+}
+
+.rpg-info {
+    display: none;
+    flex-direction: column;
+
+    height: 100%;
+    padding: 10px 5px;
+
+    background-color: #15151696;
+    box-shadow: inset 0px 0px 30px #000000a4;
+}
+
+.rpg-info h3 {
+    font-size: 0.8rem;
+}
+
+.rpg-info div {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    gap: 10px;
+
+    height: 100%;
+}
+
+.rpg-info button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 24px;
+    height: 24px;
+
+    border: 2px solid aliceblue;
+    border-radius: 50%;
+    background: none;
+
+    cursor: pointer;
+}
+
+.rpg-info button:hover {
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+.rpg-info button span {
+    font-size: 16px;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 95vw;
+    max-width: 700px;
+    height: 95vh;
+
+    margin-top: 10px;
+
+    background-color: #1f1c1c;
+    border-radius: 5px;
+
+    z-index: 2;
+}
+
+.modal > button {
+    position: absolute;
+    right: 0;
+
+    margin: 5px 7px 0px 0px;
+
+    background: none;
+    border: none;
+}
+
+.modal > button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.header-modal {
+    height: 50%;
+
+    border-radius: 5px 5px 0px 0px;
+
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-modal {
+    display: flex;
+    flex-direction: column;
+
+    height: 50%;
+
+    overflow-y: auto;
+}
+
+.content-modal::-webkit-scrollbar {
+    width: 8px;
+}
+
+.content-modal::-webkit-scrollbar-track {
+    background-color: #00000036;
+}
+
+.content-modal::-webkit-scrollbar-thumb {
+    background: #88888846;
+    border-radius: 10px;
+}
+
+.content-modal::-webkit-scrollbar-thumb:hover {
+    background: #88888867;
+}
+
+.details-modal {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+}
+
+.modal-details-a {
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+
+    background: linear-gradient(to top, #1c1c1f, #2f2f358c);
+
+    overflow-y: auto;
+}
+
+.details-data-ep {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 5px;
+}
+
+.details-data-ep span {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #ffffff75;
+}
+
+.modal-details-a p {
+    margin-top: 20px;
+
+    font-size: 0.9rem;
+    color: #ffffff75;
+}
+
+.modal-details-b {
+    width: 40%;
+    padding: 20px;
+
+    background: linear-gradient(to top, #1c1c1f, #2f2f358c);
+
+    overflow-y: auto;
+}
+
+.modal-details-b::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-details-b::-webkit-scrollbar-track {
+    background-color: #00000036;
+}
+
+.modal-details-b::-webkit-scrollbar-thumb {
+    background: #88888846;
+    border-radius: 10px;
+}
+
+.modal-details-b::-webkit-scrollbar-thumb:hover {
+    background: #88888867;
+}
+
+.details-casting {
+    color: #ffffff75;
+}
+
+.details-casting span {
+    font-size: 0.7rem;
+    color: #ffffffde;
+}
+
+.modal-ep-list {
+    background: linear-gradient(to bottom, #1c1c1f, #2f2f358c);
+}
+
+.modal-ep-list h1 {
+    padding: 5px;
+}
+
+.container-eps {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    padding: 1px;
+}
+
+.episode {
+    display: flex;
+    flex-direction: row;
+
+    padding: 5px;
+
+    background-color: #00000042;
+}
+
+.episode:hover {
+    background-color: #24242442;
+    transform: scale(0.9);
+    transition: transform 0.3s, background-color 0.3s;
+
+    cursor: pointer;
+}
+
+.episode img {
+    max-width: 200px;
+    max-height: 100px;
+
+    border-radius: 5px;
+}
+
+.episode-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 5px;
+}
+
+.episode-info h4 {
+    color: #ffffffa4;
+}
+
+.episode-info p {
+    color: #ffffffa4;
+    font-size: 0.6rem;
+}
+
+.episode-info span {
+    color: #ffffff6c;
+    font-size: 0.9rem;
+}
