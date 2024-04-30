@@ -7,6 +7,7 @@ const Article = (props) => {
             <article
                 className="catalog-img"
                 style={{ backgroundImage: `url(${props.background})` }}
+                onClick={props.onClick}
             >
                 <div className="rpg-info">
                     <h3>{props.title}</h3>

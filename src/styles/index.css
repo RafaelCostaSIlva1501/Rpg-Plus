@@ -145,16 +145,18 @@ main {
     align-items: center;
 
     position: absolute;
-    height: 100%;
-
     top: 50%;
     transform: translateY(-50%);
-    z-index: 1;
+
+    height: 100%;
+    padding: 0px 5px;
 
     background-color: #0000002d;
     border: none;
 
     cursor: pointer;
+
+    z-index: 1;
 }
 
 .catalog-btn:hover {
@@ -343,7 +345,7 @@ main {
 }
 
 .details-data-ep span {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-align: center;
     color: #ffffff75;
 }
@@ -425,7 +427,7 @@ main {
 
 .episode img {
     max-width: 200px;
-    max-height: 100px;
+    max-height: 120px;
 
     border-radius: 5px;
 }
@@ -440,6 +442,7 @@ main {
 
 .episode-info h4 {
     color: #ffffffa4;
+    font-size: 0.9rem;
 }
 
 .episode-info p {
