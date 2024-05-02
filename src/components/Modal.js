@@ -61,14 +61,19 @@ export const Modal = () => {
 
                             <div className="container-eps">
                                 {infos[index].listEp.map((ep, index) => (
+
                                     <div key={index} className="episode">
+                                        <h4>{`${ep.epTitle} ${ep.epNum}`}</h4>
+
+                                        <div className="img-sinopse">
                                         <img
                                             src={ep.epThumb}
                                             alt={`Episódio ${ep.epNum}`}
                                         />
+                                        <p>{ep.epSinopse}</p>
+                                        </div>
+                                        
                                         <div className="episode-info">
-                                            <h4>{`${ep.epTitle} ${ep.epNum}`}</h4>
-                                            <p>{ep.epSinopse}</p>
                                             <span>
                                                 Duração: {ep.epDuration}
                                             </span>
