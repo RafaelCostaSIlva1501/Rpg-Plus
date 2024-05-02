@@ -451,8 +451,14 @@ main {
 }
 
 .episode h4 {
+    margin-left: 5px;
     color: #ffffffa4;
     font-size: 1rem;
+}
+
+.episode span {
+    color: #ffffff6c;
+    font-size: 0.7rem;
 }
 
 .img-sinopse {
@@ -471,19 +477,4 @@ main {
 .img-sinopse p {
     color: #ffffffa4;
     font-size: 0.6rem;
-}
-
-
-
-.episode-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    padding: 5px;
-}
-
-.episode-info span {
-    color: #ffffff6c;
-    font-size: 0.7rem;
 }
