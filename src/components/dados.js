@@ -261,7 +261,7 @@ const infos = [
                 epNum: "Episódio 3",
                 epThumb: "./img/desconjuracao/desconjuracao-thumb-ep3.jpg",
                 epSinopse:
-                    "De volta à base da Ordem após um duro confronto, a equipe se recupera dos ferimentos e descobre uma nada ortodoxa maneira de enfrentar seus inimigos. Entre traumas reprimidos e memórias esquecidas, os agentes da Ordem veem uma estranha coincidência os unindo a um orfanato abandonado.",
+                    "De volta à base da Ordem após um duro confronto, a equipe se recupera dos ferimentos e descobre uma nada ortodoxa maneira de enfrentar seus inimigos. Os agentes da Ordem veem uma estranha coincidência os unindo a um orfanato abandonado.",
                 epDuration: "4h 38min",
             },
 
@@ -270,7 +270,7 @@ const infos = [
                 epNum: "Episódio 4",
                 epThumb: "./img/desconjuracao/desconjuracao-thumb-ep4.jpg",
                 epSinopse:
-                    "Ainda investigando sobre o desaparecimento de Elizabeth Webber, o grupo se vê obrigado a aliar-se com um ocultista preso pela Ordem: Dante. Seguindo as pistas e informações encontradas, a equipe se dirige ao Orfanato Santa Menefreda em busca de respostas.",
+                    "Ainda investigando o desaparecimento de Elizabeth Webber, o grupo se vê obrigado a aliar-se com um ocultista preso pela Ordem, Dante. Seguindo as pistas e informações encontradas a equipe se dirige ao Orfanato Santa Menefreda em busca de respostas.",
                 epDuration: "3h 41min",
             },
 
@@ -306,7 +306,7 @@ const infos = [
                 epNum: "Episódio 8",
                 epThumb: "./img/desconjuracao/desconjuracao-thumb-ep8.jpg",
                 epSinopse:
-                    "Entre lembranças removidas, rituais de transcendência, memórias de uma eterna amiga e um mistério de mais de mil anos, os agentes da Ordem, juntos do Senhor Veríssimo, começam a traçar os seus próximos passos em busca da verdade por trás de Kian.",
+                    "Os agentes da Ordem, juntos do Senhor Veríssimo, começam a traçar os seus próximos passos em busca da verdade por trás de Kian.",
                 epDuration: "4h 7min",
             },
 
@@ -351,7 +351,7 @@ const infos = [
                 epNum: "Episódio ",
                 epThumb: "./img/desconjuracao/desconjuracao-thumb-ep13.jpg",
                 epSinopse:
-                    "Entre mistérios, bonecas, revelações e conflitos, os agentes da Ordem continuam sua investigação pela Mansão Endiabrada, conseguindo cada vez mais respostas sobre o passado desse misterioso local, e principalmente sobre Kian.",
+                    "Entre mistérios e conflitos, os agentes da Ordem continuam sua investigação pela Mansão Endiabrada, conseguindo cada vez mais respostas sobre o passado desse misterioso local, e principalmente sobre Kian.",
                 epDuration: "4h 39min",
             },
 
@@ -414,7 +414,7 @@ const infos = [
                 epNum: "Episódio ",
                 epThumb: "./img/desconjuracao/desconjuracao-thumb-ep20.jpg",
                 epSinopse:
-                    "O Dia Final da Desconjuração chegou. Arthur, Dante, Erin, Kaiser e Luciano, os agentes da equipe encarregada pela missão contra os Escriptas e Kian, rumam ao Orfanato Santa Menefreda para impedir Gal. Mas lá, eles aprendem muito mais sobre o que os envolve e o que tudo pode acarretar no futuro.",
+                    "O Dia Final da Desconjuração chegou. Os agentes da equipe encarregada pela missão contra os Escriptas e Kian, rumam ao Orfanato Santa Menefreda para impedir Gal. Mas lá, eles aprendem muito mais sobre o que os envolve e o que tudo pode acarretar no futuro.",
                 epDuration: "4h 44min",
             },
 
@@ -422,7 +422,8 @@ const infos = [
                 epTitle: "Revelando - ",
                 epNum: "Episódio extra",
                 epThumb: "./img/desconjuracao/desconjuracao-thumb-extra.jpg",
-                epSinopse: "Cellbit recebe todo o elenco para discutir a temporada. Detalhes sobre a história dos protagonistas e dúvidas dos jogadores são respondidas pelo mestre, que também mostra artes de personagens inéditos, enquanto todos se divertem uma última vez falando desta aventura que entreteu muita gente.",
+                epSinopse:
+                    "Cellbit recebe todo o elenco para discutir a temporada. Detalhes sobre a história dos protagonistas e dúvidas dos jogadores são respondidas pelo mestre.",
                 epDuration: "3h 2min",
             },
         ],
@@ -561,6 +562,165 @@ const infos = [
         id: 7,
         title: "Sacramento",
         ep: "18",
+        listEp: [
+            {
+                epTitle: "Piloto - ",
+                epNum: "Episódio 0",
+                epThumb: "./img/sacramento/sacramento-thumb-ep0.jpg",
+                epSinopse:
+                    "Após fugir dos Fivela de Cobra, Gaspar acaba parando na cidade de Tupaciguara. Visitando o Salão do Tião ele entra em alguns conflitos, mas acaba ajudando a recuperar um carregamento para o Salão que estava demorando a chegar por conta da tempestade.",
+                epDuration: "2h 12min",
+            },
+
+            {
+                epTitle: "Esse show não vai acabar agora - ",
+                epNum: "Episódio 1",
+                epThumb: "./img/sacramento/sacramento-thumb-ep1.jpg",
+                epSinopse:
+                    "Com a chegada do circo do sol em Araguari, a recém formada gangue é convidada para dar uma volta pelos bastidores do local. Mas conforme o circo era apresentado à eles, Gaspar e Horácio percebem que há alguma coisa errada com o circo e com as pessoas que residem nele.",
+                epDuration: "2h 33min",
+            },
+
+            {
+                epTitle: "Eu pude salvar o seu filho - ",
+                epNum: "Episódio 2",
+                epThumb: "./img/sacramento/sacramento-thumb-ep2.jpg",
+                epSinopse:
+                    "Depois da confusão que ocorreu no Circo do Sol, a gangue precisa procurar uma maneira de limpar a ficha de Gaspar e arranjar mais dinheiro. Com isso eles recorrem ao dono da mina de Araguari, um homem rico que está tendo problemas com uma criatura que estava afastando as pessoas de sua propiedade.",
+                epDuration: "2h 22min",
+            },
+
+            {
+                epTitle: "O menino está mudando - ",
+                epNum: "Episódio 3",
+                epThumb: "./img/sacramento/sacramento-thumb-ep3.jpg",
+                epSinopse:
+                    "Após os eventos nas minas de Araguari a gangue segue à caminho da cidade de Sacramento, mas uma nevasca cai e eles precisam de um lugar para se abrigar. Mais à frente encontram uma casa, mas ela não abriga somente eles.",
+                epDuration: "2h 21min",
+            },
+
+            {
+                epTitle: "O som do tambor - ",
+                epNum: "Episódio 4",
+                epThumb: "./img/sacramento/sacramento-thumb-ep4.jpg",
+                epSinopse:
+                    "Chegando em Sacramento, os companheiros de gangue procuram um lugar para cuidar dos ferimentos de Horácio.",
+                epDuration: "2h 17min",
+            },
+
+            {
+                epTitle: "Eu nunca mais vou te perder - ",
+                epNum: "Episódio 5",
+                epThumb: "./img/sacramento/sacramento-thumb-ep5.jpg",
+                epSinopse:
+                    "Após o roubo das carroças de Casagrande, a gangue dos pavio curto voltam para Sacramento, levando Gaspar até a igreja local para tratar seus ferimentos. Na volta eles se encontram com Ceiça e pardal, que haviam chegado recentemente na cidade depois de terem resolvido assuntos pendentes.",
+                epDuration: "2h 28min",
+            },
+
+            {
+                epTitle: "Sempre com muita firmeza - ",
+                epNum: "Episódio 6",
+                epThumb: "./img/sacramento/sacramento-thumb-ep6.jpg",
+                epSinopse: "",
+                epDuration: "3h 9min",
+            },
+
+            {
+                epTitle: "Eu sou a encrenca - ",
+                epNum: "Episódio 7",
+                epThumb: "./img/sacramento/sacramento-thumb-ep7.jpg",
+                epSinopse: "",
+                epDuration: "2h 32min",
+            },
+
+            {
+                epTitle: "Esse papo de aberração ressoa comigo - ",
+                epNum: "Episódio 8",
+                epThumb: "./img/sacramento/sacramento-thumb-ep8.jpg",
+                epSinopse: "",
+                epDuration: "3h 16min",
+            },
+
+            {
+                epTitle: "Tirou minha visão, mas não o amor dentro de mim - ",
+                epNum: "Episódio 9",
+                epThumb: "./img/sacramento/sacramento-thumb-ep9.jpg",
+                epSinopse: "",
+                epDuration: "2h 19min",
+            },
+
+            {
+                epTitle: "Um fim menos miserável - ",
+                epNum: "Episódio 10",
+                epThumb: "./img/sacramento/sacramento-thumb-ep10.jpg",
+                epSinopse: "",
+                epDuration: "2h 39min",
+            },
+
+            {
+                epTitle: "A gente tem uma nova família - ",
+                epNum: "Episódio 11",
+                epThumb: "./img/sacramento/sacramento-thumb-ep11.jpg",
+                epSinopse: "",
+                epDuration: "2h 7min",
+            },
+
+            {
+                epTitle: "Parece que isso explica os nossos pesadelos - ",
+                epNum: "Episódio 12",
+                epThumb: "./img/sacramento/sacramento-thumb-ep12.jpg",
+                epSinopse: "",
+                epDuration: "2h 38min",
+            },
+
+            {
+                epTitle: "Se eu não posso absolvê-los, o Sol vai - ",
+                epNum: "Episódio 13",
+                epThumb: "./img/sacramento/sacramento-thumb-ep13.jpg",
+                epSinopse: "",
+                epDuration: "3h 12min",
+            },
+
+            {
+                epTitle: "Esse lugar é realmente especial - ",
+                epNum: "Episódio 14",
+                epThumb: "./img/sacramento/sacramento-thumb-ep14.jpg",
+                epSinopse: "",
+                epDuration: "2h 19min",
+            },
+
+            {
+                epTitle: "Ainda bem que um de nós dois é forte - ",
+                epNum: "Episódio 15",
+                epThumb: "./img/sacramento/sacramento-thumb-ep15.jpg",
+                epSinopse: "",
+                epDuration: "2h 58min",
+            },
+
+            {
+                epTitle: "Você teve escolha - ",
+                epNum: "Episódio 16",
+                epThumb: "./img/sacramento/sacramento-thumb-ep16.jpg",
+                epSinopse: "",
+                epDuration: "2h 52min",
+            },
+
+            {
+                epTitle: "Um marco na história - ",
+                epNum: "Episódio 17",
+                epThumb: "./img/sacramento/sacramento-thumb-ep17.jpg",
+                epSinopse: "",
+                epDuration: "4h 15min",
+            },
+
+            {
+                epTitle: "A história dos Fivela de Cobra - ",
+                epNum: "Episódio extra",
+                epThumb: "./img/sacramento/sacramento-thumb-spinoff.jpg",
+                epSinopse: "",
+                epDuration: "4h 56min",
+            },
+        ],
         data: "2022",
         background: "./img/sacramento/sacramento-logo.jpg",
         wallpaper: ["./img/sacramento/sacramento-wallpaper-1.jpg"],
@@ -584,6 +744,31 @@ const infos = [
         id: 8,
         title: "Assimilação",
         ep: "3",
+        listEp: [
+            {
+                epTitle: "Assimilação: PRÓLOGO - ",
+                epNum: "Episódio 1",
+                epThumb: "./img/assimilacao/assimilacao-thumb-ep1.jpg",
+                epSinopse: "",
+                epDuration: "3h 48min",
+            },
+
+            {
+                epTitle: "Assimilação: PRÓLOGO - ",
+                epNum: "Episódio 2",
+                epThumb: "./img/assimilacao/assimilacao-thumb-ep2.jpg",
+                epSinopse: "",
+                epDuration: "5h 6min",
+            },
+
+            {
+                epTitle: " Assimilação: PRÓLOGO- ",
+                epNum: "Episódio 3",
+                epThumb: "./img/assimilacao/assimilacao-thumb-ep3.jpg",
+                epSinopse: "",
+                epDuration: "5h 29min",
+            },
+        ],
         data: "2023",
         background: "./img/assimilacao/assimilacao-logo.jpg",
         wallpaper: ["./img/assimilacao/assimilacao-wallpaper-1.jpg"],
@@ -592,7 +777,7 @@ const infos = [
             "Em um cenário pós apocalíptico, um grupo de pessoas habitam Horto, um lugar seguro e protegido por muros. Alguns de seus habitantes se perguntam se há algo melhor fora dos muros e anseiam aventura.",
         elenco: [
             "Rakin (Narrador), ",
-            "Rafael Montes (Carlos Rocheda)",
+            "Rafael Montes (Carlos Rocheda), ",
             "Ingrid Marques (Holly Hortênsia), ",
             "Claudia Andriolo (Ana), ",
             "Gustavo de Castro (Lito), ",

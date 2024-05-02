@@ -32,7 +32,7 @@ const Section = () => {
     return (
         <>
             <section className="container-catalog">
-                <h2>Oficial Ordem Paranormal</h2>
+                <h2>Ordem Paranormal</h2>
 
                 <div className="catalog">
                     <button
