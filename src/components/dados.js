@@ -58,7 +58,7 @@ const infos = [
                 epNum: "Episódio 1",
                 epThumb: "./img/o-segredo-na-floresta/osnf-thumb-ep1.jpg",
                 epSinopse:
-                    "Cinco membros da Ordo Veritatis são enviados para Carpazinha, interior do Rio Grande do Sul. Lá, eles precisam investigar a estranha morte de um homem local e o desaparecimento de uma equipe da Ordem.",
+                    "Cinco membros da Ordo Veritatis são enviados para investigar a morte de um homem e o desaparecimento de uma equipe da Ordem em Carpazinha, no interior do Rio Grande do Sul.",
                 epDuration: "4h 36min",
             },
 
@@ -76,7 +76,7 @@ const infos = [
                 epNum: "Episódio 3",
                 epThumb: "./img/o-segredo-na-floresta/osnf-thumb-ep3.jpg",
                 epSinopse:
-                    "Ao visitar o bar Suvaco Seco, a equipe se depara com um terrível assassinato próximo ao local, e, com a ajuda de Arthur, um músico da cidade, precisa adentrar a floresta e enfrentar o horror que nela se esconde.                    ",
+                    "Ao visitar um bar, a equipe se depara com um terrível assassinato próximo ao local, agora precisam adentrar a floresta e enfrentar o horror que nela se esconde.",
                 epDuration: "4h 21min",
             },
 
@@ -121,7 +121,7 @@ const infos = [
                 epNum: "Episódio 8",
                 epThumb: "./img/o-segredo-na-floresta/osnf-thumb-ep8.jpg",
                 epSinopse:
-                    "Ainda se recuperando das perdas e fraturas de sua missão, a equipe tira a noite para repassar as informações do caso. Isso até Elizabeth introduzir o jogo `Eu Nunca´ ao grupo.",
+                    "Ainda se recuperando das perdas e fraturas de sua missão, a equipe tira a noite para repassar as informações do caso.",
                 epDuration: "4h 26min",
             },
 
@@ -157,7 +157,7 @@ const infos = [
                 epNum: "Episódio 12",
                 epThumb: "./img/o-segredo-na-floresta/osnf-thumb-ep12.jpg",
                 epSinopse:
-                    "Com o corpo de um luzídio selvagem a seus pés, a equipe enfrenta uma leva de monstros na névoa da floresta até voltar ao Santo Berço. Lá, descobrem a verdade sobre um de seus mais queridos habitantes.",
+                    "Enfrentando uma horda de monstros na névoa da floresta, a equipe retorna ao Santo Berço, descobrindo a verdade sobre seus habitantes queridos.",
                 epDuration: "3h 56min",
             },
 
@@ -166,7 +166,7 @@ const infos = [
                 epNum: "Episódio 13",
                 epThumb: "./img/o-segredo-na-floresta/osnf-thumb-ep13.jpg",
                 epSinopse:
-                    "Dentre a névoa e os brilhantes cristais da caverna de Santo Berço, o grupo firma seu companheirismo, enfrenta monstros horríveis e encontra mais respostas do que esperavam.",
+                    "Dentro da caverna de Santo Berço, o grupo firma seu companheirismo, enfrentando monstros horríveis e encontrando mais respostas do que esperavam.",
                 epDuration: "3h 46min",
             },
 
@@ -175,7 +175,7 @@ const infos = [
                 epNum: "Episódio 14",
                 epThumb: "./img/o-segredo-na-floresta/osnf-thumb-ep14.jpg",
                 epSinopse:
-                    "A equipe atravessa a porta da mina e faz descobertas sobre a origem e o funcionamento do Santo Berço. Liz e Thiago encontram ligações com um caso antigo, e o peso de um sacrifício divide o grupo.",
+                    "Atravessando a porta da mina a equipe faz descobertas sobre a origem e o funcionamento do Santo Berço. E encontram ligações com um caso antigo, o peso de um sacrifício divide o grupo.",
                 epDuration: "3h 13min",
             },
 
@@ -236,7 +236,196 @@ const infos = [
     {
         id: 2,
         title: "Desconjuração",
-        ep: "12",
+        ep: "20",
+        listEp: [
+            {
+                epTitle: "Ordo Realitas - ",
+                epNum: "Episódio 1",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep1.jpg",
+                epSinopse:
+                    "Após os eventos de O Segredo na Floresta, um novo grupo de agentes se unem investigar o desaparecimento de Elizabeth Webber, que estava na caça de uma célula ocultista conhecida apenas como Ordem da Desconjuração.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Sangue - ",
+                epNum: "Episódio 2",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep2.jpg",
+                epSinopse:
+                    "Descendo até o estacionamento de um prédio suspeito, a equipe da Ordem enfrenta ocultistas, Zumbis de Sangue e seus próprios conflitos enquanto procura por explicações.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Transcender - ",
+                epNum: "Episódio 3",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep3.jpg",
+                epSinopse:
+                    "De volta à base da Ordem após um duro confronto, a equipe se recupera dos ferimentos e descobre uma nada ortodoxa maneira de enfrentar seus inimigos. Entre traumas reprimidos e memórias esquecidas, os agentes da Ordem veem uma estranha coincidência os unindo a um orfanato abandonado.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Orfanato - ",
+                epNum: "Episódio 4",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep4.jpg",
+                epSinopse:
+                    "Ainda investigando sobre o desaparecimento de Elizabeth Webber, o grupo se vê obrigado a aliar-se com um ocultista preso pela Ordem: Dante. Seguindo as pistas e informações encontradas, a equipe se dirige ao Orfanato Santa Menefreda em busca de respostas.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Escriptas - ",
+                epNum: "Episódio 5",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep5.jpg",
+                epSinopse:
+                    "A equipe continua explorando o misterioso orfanato em busca de respostas sobre sua amiga desaparecida. Entre desafios mortais e conhecimentos ocultos, lutar é a única saída para encontrar quem procuram.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Elizabeth - ",
+                epNum: "Episódio 6",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep6.jpg",
+                epSinopse:
+                    "Após uma longa investigação, a equipe finalmente encontra a agente Elizabeth em um orfanato abandonado, presa por um misterioso grupo nomeado 'Escriptas'.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Anfitrião - ",
+                epNum: "Episódio 7",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep7.jpg",
+                epSinopse:
+                    "Preocupados com os colegas, Erin e Fernando saem em busca de sua equipe no Orfanato, mas acabam presos no estranho Jogo do Anfitrião, contando apenas com a ajuda de dois desconhecidos para escapar.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Reunião - ",
+                epNum: "Episódio 8",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep8.jpg",
+                epSinopse:
+                    "Entre lembranças removidas, rituais de transcendência, memórias de uma eterna amiga e um mistério de mais de mil anos, os agentes da Ordem, juntos do Senhor Veríssimo, começam a traçar os seus próximos passos em busca da verdade por trás de Kian.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Mansão Endiabrada - ",
+                epNum: "Episódio 9",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep9.jpg",
+                epSinopse:
+                    "O grupo enfrenta a misteriosa Seita das Máscaras na base da Ordem e continua sua investigação sobre Kian e os Escriptas, explorando uma mansão assombrada.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Fotografias - ",
+                epNum: "Episódio 10",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep10.jpg",
+                epSinopse:
+                    "A equipe continua investigando a misteriosa Mansão Endiabrada após um acontecimento terrível. E a cada passo a mais que dão, cada vez mais mistérios surgem em volta de tudo.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Lembrar - ",
+                epNum: "Episódio 11",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep11.jpg",
+                epSinopse:
+                    "Após uma intensa investigação, os agentes decidem montar uma estratégia para descansar na perigosa mansão. Porém, nesse lugar amaldiçoado, tudo pode acontecer...",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Mudança - ",
+                epNum: "Episódio 12",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep12.jpg",
+                epSinopse:
+                    "Com um ar de tristeza e tensão pairando a Mansão Endiabrada, o grupo de agentes continua novamente sua investigação, tentando enfrentar os seus conflitos e passando por novas mudanças em suas vidas.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Bruxa Arrependida - ",
+                epNum: "Episódio ",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep13.jpg",
+                epSinopse:
+                    "Entre mistérios, bonecas, revelações e conflitos, os agentes da Ordem continuam sua investigação pela Mansão Endiabrada, conseguindo cada vez mais respostas sobre o passado desse misterioso local, e principalmente sobre Kian.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "O Espreitador - ",
+                epNum: "Episódio ",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep14.jpg",
+                epSinopse:
+                    "Os agentes se preparam para enfrentar a criatura conhecida como O Espreitador. No entanto, contratempos e a chegada de Ivete prometem complicar ainda os trabalhos da equipe.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Divina Comédia - ",
+                epNum: "Episódio ",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep15.jpg",
+                epSinopse:
+                    "De volta à base depois dos horrores sofridos na mansão, a equipe divide seu tempo entre tratamentos médicos e homenagens. Mas quando Dante testa seu novo ritual, ele passa a ver o dilema de Beatrice de uma nova forma.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Melodia - ",
+                epNum: "Episódio ",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep16.jpg",
+                epSinopse:
+                    "Descansados e recuperados, os agentes retomam a missão na Mansão Endiabrada. Porém, uma estranha melodia inacabada parece ecoar no caminho da equipe.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Sacrifício - ",
+                epNum: "Episódio ",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep17.jpg",
+                epSinopse:
+                    "Os agentes se preparam para a última parte da investigação da Mansão Endiabrada. Mas o que eles não esperam é um preço a se pagar ao final da investigação.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Enpap - ",
+                epNum: "Episódio ",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep18.jpg",
+                epSinopse:
+                    "A última parte da investigação sobre Kian, Leonardo Gomes e os Escriptas se inicia. Uma urgência traz novamente os agentes da Ordem até a Mansão Endiabrada, onde o evento conhecido como Desconjuração está prestes a ser iniciado.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Tirigan - ",
+                epNum: "Episódio ",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep19.jpg",
+                epSinopse:
+                    "O fim está próximo. Rodeados de corredores repletos de textos escritos nas paredes, os agentes da Ordem, auxiliados por Bruno, se envolvem em mais um dos jogos de Anthony, o atual Tirigan, rumando apenas um objetivo: impedir a Desconjuração",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Kian - ",
+                epNum: "Episódio ",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-ep20.jpg",
+                epSinopse:
+                    "O Dia Final da Desconjuração chegou. Arthur, Dante, Erin, Kaiser e Luciano, os agentes da equipe encarregada pela missão contra os Escriptas e Kian, rumam ao Orfanato Santa Menefreda para impedir Gal. Mas lá, eles aprendem muito mais sobre o que os envolve e o que tudo pode acarretar no futuro.",
+                epDuration: "h min",
+            },
+
+            {
+                epTitle: "Revelando - ",
+                epNum: "Episódio extra",
+                epThumb: "./img/desconjuracao/desconjuracao-thumb-extra.jpg",
+                epSinopse: "",
+                epDuration: "h min",
+            },
+        ],
         data: "2020",
         background: "./img/desconjuracao/desconjuracao-logo.jpg",
         wallpaper: [

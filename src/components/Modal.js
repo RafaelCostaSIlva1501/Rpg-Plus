@@ -25,6 +25,12 @@ export const Modal = () => {
                     <section className="content-modal">
                         <div className="details-modal">
                             <div className="modal-details-a">
+                                <button>
+                                    <span className="material-symbols-outlined">
+                                        add
+                                    </span>
+                                    Adicionar a lista
+                                </button>
                                 <div className="details-data-ep">
                                     <span>{infos[index].data}</span>
                                     <span>{infos[index].ep} episódios</span>

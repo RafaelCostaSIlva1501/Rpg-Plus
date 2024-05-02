@@ -337,6 +337,27 @@ main {
     overflow-y: auto;
 }
 
+.modal-details-a  > button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 5px;
+    padding: 2px 10px;
+
+    background-color: #0000009a;
+    border: none;
+
+    color: #f0f8ff;
+
+    cursor: pointer;
+}
+
+.modal-details-a  > button:hover {
+    background-color: #0000005d;
+}
+
 .details-data-ep {
     display: flex;
     flex-direction: row;
