@@ -21,9 +21,8 @@ root.render(
             <Main />
             <Section />
             <Modal />
+            <Search />
         </ModalProvider>
-
-        <Search />
         
     </React.StrictMode>
 );
