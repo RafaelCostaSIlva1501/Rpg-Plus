@@ -7,6 +7,7 @@ const ModalContext = createContext();
 //Criar componente provedor
 export const ModalProvider = ({ children }) => {
     const [modalState, setModalState] = useState(false);
+    const [searchState, setSearchState] = useState(false)
     const [index, setIndex] = useState(null);
 
     const modalON = (index) => {
@@ -19,8 +20,16 @@ export const ModalProvider = ({ children }) => {
         setModalState(false);
     };
 
+    const searchON = () => {
+        setSearchState(true)
+    }
+
+    const searchOFF = () => {
+        setSearchState(false)
+    }
+
     return (
-        <ModalContext.Provider value={{ modalState, modalON, modalOFF, index }}>
+        <ModalContext.Provider value={{ modalState, modalON, modalOFF, index, searchState, searchON, searchOFF }}>
             {children}
         </ModalContext.Provider>
     );

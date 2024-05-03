@@ -3,7 +3,7 @@ import { useModal } from "./ModalContext";
 import infos from "./dados";
 
 const Main = () => {
-    const { modalON } = useModal();
+    const { modalON, searchON } = useModal();
 
     const getRandomIndex = () => {
         const randomIndexInfo = Math.floor(Math.random() * infos.length);

@@ -9,20 +9,18 @@ import Section from "./components/Section.js";
 import Modal from "./components/Modal.js";
 import Search from "./components/Search.js";
 
-import { ModalProvider } from './components/ModalContext';
+import { ModalProvider } from "./components/ModalContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <React.StrictMode>
-        <Header />
-
         <ModalProvider>
+            <Header />
             <Main />
             <Section />
             <Modal />
             <Search />
         </ModalProvider>
-        
     </React.StrictMode>
 );

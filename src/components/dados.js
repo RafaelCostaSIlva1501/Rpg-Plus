@@ -45,6 +45,7 @@ const infos = [
             "Rakin (Thiago Fritz), ",
             "Ljoga (Alexsander Kothe).",
         ],
+        tag: [],
     },
 
     //O Segredo na Floresta
@@ -230,6 +231,7 @@ const infos = [
             "Kalera (Eva van Gloss), ",
             "Leo Santi (Kenan Thomas).",
         ],
+        tag: [],
     },
 
     //Desconjuração
@@ -454,6 +456,7 @@ const infos = [
             "Felps (Rubens Naluti), ",
             "Bastet (Salazar Lourenço)",
         ],
+        tag: [],
     },
 
     //Calamidade
@@ -466,7 +469,8 @@ const infos = [
                 epTitle: "Ordem Paranormal: Calamidade - ",
                 epNum: "Episódio 0",
                 epThumb: "./img/calamidade/calamidade-thumb-ep0.jpg",
-                epSinopse: "Uma nova equipe de agentes é designada para retomar um antigo caso de Arnaldo Fritz. Os veteranos Arthur Cervero e Dante se juntam a Rubens Naluti, Antônio Pontevedra e Carina Leone para seguir as pistas da possível entidade descrita como 'O Diabo' enquanto buscam informações sobre as Relíquias da Calamidade.",
+                epSinopse:
+                    "Uma nova equipe de agentes é designada para retomar um antigo caso de Arnaldo Fritz. Os veteranos Arthur Cervero e Dante se juntam a Rubens Naluti, Antônio Pontevedra e Carina Leone para seguir as pistas da possível entidade descrita como 'O Diabo' enquanto buscam informações sobre as Relíquias da Calamidade.",
                 epDuration: "4h 25min",
             },
 
@@ -474,7 +478,8 @@ const infos = [
                 epTitle: "O começo do fim - ",
                 epNum: "Episódio 1",
                 epThumb: "./img/calamidade/calamidade-thumb-ep1.jpg",
-                epSinopse: "A nova equipe retorna à base da Ordem para prosseguir na investigação sobre uma entidade diabólica e sua relação com as Relíquias da Calamidade. Uma pista vinda do grimório de Arnaldo Fritz leva os agentes para a mansão da Família Leone, na Itália, onde um tenebroso pacto os espera.",
+                epSinopse:
+                    "A nova equipe retorna à base da Ordem para prosseguir na investigação sobre uma entidade diabólica e sua relação com as Relíquias da Calamidade. Uma pista vinda do grimório de Arnaldo Fritz leva os agentes para a mansão da Família Leone, na Itália, onde um tenebroso pacto os espera.",
                 epDuration: "3h",
             },
 
@@ -482,7 +487,8 @@ const infos = [
                 epTitle: "Vingança - ",
                 epNum: "Episódio 2",
                 epThumb: "./img/calamidade/calamidade-thumb-ep2.jpg",
-                epSinopse: "Toda história tem dois lados. A invasão à Mansão Leone, na Itália, inicia a história dos Marcados de Kian em busca de informações sobre as Relíquias da Calamidade. Mas, logo, algo além de seus poderes surge em meio às sombras, com um olhar raivoso por vingança.",
+                epSinopse:
+                    "Toda história tem dois lados. A invasão à Mansão Leone, na Itália, inicia a história dos Marcados de Kian em busca de informações sobre as Relíquias da Calamidade. Mas, logo, algo além de seus poderes surge em meio às sombras, com um olhar raivoso por vingança.",
                 epDuration: "5h 2min",
             },
 
@@ -490,7 +496,8 @@ const infos = [
                 epTitle: "Pacto - ",
                 epNum: "Episódio 3",
                 epThumb: "./img/calamidade/calamidade-thumb-ep3.jpg",
-                epSinopse: "Em um clima de luto, pactos e possíveis traições, os agentes continuam sua investigação na mansão da Família Leone. Carina se sente chamada pelo Outro Lado, onde se vê prestes a descobrir sobre a conexão com a sua marca.",
+                epSinopse:
+                    "Em um clima de luto, pactos e possíveis traições, os agentes continuam sua investigação na mansão da Família Leone. Carina se sente chamada pelo Outro Lado, onde se vê prestes a descobrir sobre a conexão com a sua marca.",
                 epDuration: "3h 50min",
             },
 
@@ -498,7 +505,8 @@ const infos = [
                 epTitle: "Anfiteatro - ",
                 epNum: "Episódio 4",
                 epThumb: "./img/calamidade/calamidade-thumb-ep4.jpg",
-                epSinopse: "A Ordo Realitas se transfere para a Mansão Leone, para continuar a procurar pelas Relíquias da Calamidade. Uma nova pista vinda das páginas do grimório de Arnaldo Fritz leva os agentes da Ordem até um local conhecido por tantos, manchado pelo sangue, que se recusa a ruir pelo tempo e é regido pelo caos: O Coliseu.",
+                epSinopse:
+                    "A Ordo Realitas se transfere para a Mansão Leone, para continuar a procurar pelas Relíquias da Calamidade. Uma nova pista vinda das páginas do grimório de Arnaldo Fritz leva os agentes da Ordem até um local conhecido por tantos, manchado pelo sangue, que se recusa a ruir pelo tempo e é regido pelo caos: O Coliseu.",
                 epDuration: "4h 5min",
             },
 
@@ -506,7 +514,8 @@ const infos = [
                 epTitle: "Ordo Calamitas - ",
                 epNum: "Episódio 5",
                 epThumb: "./img/calamidade/calamidade-thumb-ep5.jpg",
-                epSinopse: "A Equipe Abutres continua a investigação do Coliseu, agora aliados aos poderes das sombras de Joui Jouki. No entanto, ao descerem para a porta de Semper Clausa, eles terão que confrontar as memórias do passado para poder entender a história da Ordem da Calamidade.",
+                epSinopse:
+                    "A Equipe Abutres continua a investigação do Coliseu, agora aliados aos poderes das sombras de Joui Jouki. No entanto, ao descerem para a porta de Semper Clausa, eles terão que confrontar as memórias do passado para poder entender a história da Ordem da Calamidade.",
                 epDuration: "4h 18min",
             },
 
@@ -514,7 +523,8 @@ const infos = [
                 epTitle: "Jogos - ",
                 epNum: "Episódio 6",
                 epThumb: "./img/calamidade/calamidade-thumb-ep6.jpg",
-                epSinopse: "Os jogos começaram. A Equipe Abutres enfrenta os jogos de Amphitruo enquanto incorporam os guerreiros de Ordo Calamitas, para saber mais sobre as Relíquias da Calamidade. Entretanto, algo mais importante envolvendo o passado da Ordo Realitas os espera no fim do jogo.",
+                epSinopse:
+                    "Os jogos começaram. A Equipe Abutres enfrenta os jogos de Amphitruo enquanto incorporam os guerreiros de Ordo Calamitas, para saber mais sobre as Relíquias da Calamidade. Entretanto, algo mais importante envolvendo o passado da Ordo Realitas os espera no fim do jogo.",
                 epDuration: "5h 9min",
             },
 
@@ -522,7 +532,8 @@ const infos = [
                 epTitle: "Traição - ",
                 epNum: "Episódio 7",
                 epThumb: "./img/calamidade/calamidade-thumb-ep7.jpg",
-                epSinopse: "As regras estão mudando. Kian guia os Escriptas pelas ruínas de Domus Aurea para encontrar informações sobre a relação das Relíquias da Calamidade e Ordo Calamitas. Entretanto, a mitologia do local promete dificultar o trabalho de seus Marcados.",
+                epSinopse:
+                    "As regras estão mudando. Kian guia os Escriptas pelas ruínas de Domus Aurea para encontrar informações sobre a relação das Relíquias da Calamidade e Ordo Calamitas. Entretanto, a mitologia do local promete dificultar o trabalho de seus Marcados.",
                 epDuration: "5h 2min",
             },
 
@@ -530,7 +541,8 @@ const infos = [
                 epTitle: "Escolha - ",
                 epNum: "Episódio 8",
                 epThumb: "./img/calamidade/calamidade-thumb-ep8.jpg",
-                epSinopse: "Entre brigas, escolhas e decisões a se fazer, a Equipe Abutres se vê envolvida em um dilema urgente: decidir o destino da Calamidade e escolher com quem se aliar na guerra.",
+                epSinopse:
+                    "Entre brigas, escolhas e decisões a se fazer, a Equipe Abutres se vê envolvida em um dilema urgente: decidir o destino da Calamidade e escolher com quem se aliar na guerra.",
                 epDuration: "4h 35min",
             },
 
@@ -538,7 +550,8 @@ const infos = [
                 epTitle: "Síntese - ",
                 epNum: "Episódio 9",
                 epThumb: "./img/calamidade/calamidade-thumb-ep9.jpg",
-                epSinopse: "Após uma intensa batalha pelos corredores de Ordo Calamitas, a Equipe Abutres tira um tempo para descansar e se recuperar. Mas logo, um novo desafio surge a sua frente: fazer um relatório de perdas e traições para um cansado Senhor Veríssimo.",
+                epSinopse:
+                    "Após uma intensa batalha pelos corredores de Ordo Calamitas, a Equipe Abutres tira um tempo para descansar e se recuperar. Mas logo, um novo desafio surge a sua frente: fazer um relatório de perdas e traições para um cansado Senhor Veríssimo.",
                 epDuration: "3h 41min",
             },
 
@@ -546,7 +559,8 @@ const infos = [
                 epTitle: "Tempo - ",
                 epNum: "Episódio 10",
                 epThumb: "./img/calamidade/calamidade-thumb-ep10.jpg",
-                epSinopse: "Arthur, Balu e Rubens se unem aos membros dos Hell Hunters e da Obscurité para defender a Mansão Leone de uma invasão comandada por escriptas ligados ao Tempo.",
+                epSinopse:
+                    "Arthur, Balu e Rubens se unem aos membros dos Hell Hunters e da Obscurité para defender a Mansão Leone de uma invasão comandada por escriptas ligados ao Tempo.",
                 epDuration: "4h 42min",
             },
 
@@ -554,7 +568,8 @@ const infos = [
                 epTitle: "Guerreiro - ",
                 epNum: "Episódio 11",
                 epThumb: "./img/calamidade/calamidade-thumb-ep11.jpg",
-                epSinopse: "A Guerra começou. Enquanto a Ordo Realitas entra em fogo cruzado com os Escriptas, Joui, Carina e Dante rumam ao centro da arena do Coliseu para combater Kian e seus Marcados.",
+                epSinopse:
+                    "A Guerra começou. Enquanto a Ordo Realitas entra em fogo cruzado com os Escriptas, Joui, Carina e Dante rumam ao centro da arena do Coliseu para combater Kian e seus Marcados.",
                 epDuration: "4h 1min",
             },
 
@@ -562,7 +577,8 @@ const infos = [
                 epTitle: "Olhos - ",
                 epNum: "Episódio 12",
                 epThumb: "./img/calamidade/calamidade-thumb-ep12.jpg",
-                epSinopse: "Os olhos de Kian e dos agentes da Ordo Realitas continuam a se cruzar na batalha do Coliseu. E o futuro reserva muito mais mistérios a se descobrir.",
+                epSinopse:
+                    "Os olhos de Kian e dos agentes da Ordo Realitas continuam a se cruzar na batalha do Coliseu. E o futuro reserva muito mais mistérios a se descobrir.",
                 epDuration: "4h 28min",
             },
         ],
@@ -592,6 +608,7 @@ const infos = [
             "Kalera (Yuki Saito), ",
             "Bastet (Henri).",
         ],
+        tag: [],
     },
 
     //O Segredo na Ilha
@@ -623,6 +640,7 @@ const infos = [
             "Rakin (Wanderley Nascimento), ",
             "Guaxinim (Arthur Cervero).",
         ],
+        tag: [],
     },
 
     //Sinais do Outro Lado
@@ -654,6 +672,7 @@ const infos = [
             "Guaxinim (Alexandre), ",
             "Rakin (Arnaldo Fritz).",
         ],
+        tag: [],
     },
 
     //Quarentena
@@ -687,6 +706,7 @@ const infos = [
             "Gabi (Carol), ",
             "Rakin (Controlador aéreo).",
         ],
+        tag: [],
     },
 
     //Sacramento
@@ -882,6 +902,7 @@ const infos = [
             "Leo Santi (Juarez), ",
             "Carol Zaghetti (Clarice).",
         ],
+        tag: [],
     },
 
     //Assimilação
@@ -928,6 +949,7 @@ const infos = [
             "Gustavo de Castro (Lito), ",
             "Gabriel Henud (Jorge).",
         ],
+        tag: [],
     },
 
     //Espiral
@@ -958,6 +980,7 @@ const infos = [
             "Bastet (Marcelo Antunes), ",
             "Monge Han (Will Hyun Kim).",
         ],
+        tag: ["ordem", "paranormal", "pedrok", "espiral"],
     },
 
     //O Espelho do Pavão
@@ -987,6 +1010,7 @@ const infos = [
             "Lavi (Antonella Quirino), ",
             "Cellbit (Saulo Espencio).",
         ],
+        tag: [],
     },
 ];
 

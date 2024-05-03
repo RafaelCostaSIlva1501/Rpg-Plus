@@ -514,6 +514,13 @@ main {
     background-color: #00000044;
 }
 
+.search-input button {
+    background: none;
+    border: none;
+
+    cursor: pointer;
+}
+
 .search-input span {
     color: #ffffffb2;
 }
@@ -521,13 +528,25 @@ main {
 .container-input {
     display: flex;
     flex-direction: row;
+    gap: 10px;
 
     width: 90%;
     padding: 5px;
 
     background-color: transparent;
-    border: 1px solid #ffffffa4;
+    border: 1px solid #ffffffb2;
     border-radius: 5px;
+
+    animation: search 1s ease-in-out;
+}
+
+@keyframes search {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
 }
 
 .container-input:focus {
