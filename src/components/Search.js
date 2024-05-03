@@ -9,20 +9,25 @@ const Search = () => {
     return (
         <>
             <section className="search-modal">
-                <section className="search-input">
-                    <input></input>
-                </section>
-                <section className="search-content">
+                <div className="search-input">
+                    <span className="material-symbols-outlined">arrow_back</span>
+                    <div className="container-input">
+                        <input></input>
+                        <span className="material-symbols-outlined"> search </span>
+                    </div>
+                </div>
+
+                <div className="search-content">
                     {infos.map((info, idx) => (
                         <Articles
                             key={index}
                             background={info.background}
                             title={info.title}
                             ep={info.ep}
-                            onClick ={() => modalON(idx)}
+                            onClick={() => modalON(idx)}
                         />
                     ))}
-                </section>
+                </div>
             </section>
         </>
     );

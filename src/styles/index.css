@@ -492,14 +492,10 @@ main {
     gap: 5px;
 
     position: fixed;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+    top: 0;
     
     width: 100vw;
     height: 100vh;
-
-    padding: 5px;
 
     background: linear-gradient(to bottom, #1c1c1f, #2a2a2c);
  
@@ -507,20 +503,44 @@ main {
 }
 
 .search-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
     width: 100%;
+    padding: 10px;
+
+    background-color: #00000044;
 }
 
+.search-input span {
+    color: #ffffffb2;
+}
 
-.search-input input {
-    width: 100%;
+.container-input {
+    display: flex;
+    flex-direction: row;
+
+    width: 90%;
     padding: 5px;
 
     background-color: transparent;
     border: 1px solid #ffffffa4;
     border-radius: 5px;
-    outline: none;
+}
 
-    color: #ffffffa4;
+.container-input:focus {
+    border: 1px solid red;
+}
+
+
+.container-input input {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #ffffffb2;
 }
 
 .search-content {
