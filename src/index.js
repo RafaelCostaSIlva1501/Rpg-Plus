@@ -7,6 +7,7 @@ import Header from "./components/Header.js";
 import Main from "./components/Main.js";
 import Section from "./components/Section.js";
 import Modal from "./components/Modal.js";
+import Search from "./components/Search.js";
 
 import { ModalProvider } from './components/ModalContext';
 
@@ -21,6 +22,8 @@ root.render(
             <Section />
             <Modal />
         </ModalProvider>
+
+        <Search />
         
     </React.StrictMode>
 );

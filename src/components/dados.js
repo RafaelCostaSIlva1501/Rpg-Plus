@@ -461,6 +461,111 @@ const infos = [
         id: 3,
         title: "Calamidade",
         ep: "13",
+        listEp: [
+            {
+                epTitle: "Ordem Paranormal: Calamidade - ",
+                epNum: "Episódio 0",
+                epThumb: "./img/calamidade/calamidade-thumb-ep0.jpg",
+                epSinopse: "Uma nova equipe de agentes é designada para retomar um antigo caso de Arnaldo Fritz. Os veteranos Arthur Cervero e Dante se juntam a Rubens Naluti, Antônio Pontevedra e Carina Leone para seguir as pistas da possível entidade descrita como 'O Diabo' enquanto buscam informações sobre as Relíquias da Calamidade.",
+                epDuration: "4h 25min",
+            },
+
+            {
+                epTitle: "O começo do fim - ",
+                epNum: "Episódio 1",
+                epThumb: "./img/calamidade/calamidade-thumb-ep1.jpg",
+                epSinopse: "A nova equipe retorna à base da Ordem para prosseguir na investigação sobre uma entidade diabólica e sua relação com as Relíquias da Calamidade. Uma pista vinda do grimório de Arnaldo Fritz leva os agentes para a mansão da Família Leone, na Itália, onde um tenebroso pacto os espera.",
+                epDuration: "3h",
+            },
+
+            {
+                epTitle: "Vingança - ",
+                epNum: "Episódio 2",
+                epThumb: "./img/calamidade/calamidade-thumb-ep2.jpg",
+                epSinopse: "Toda história tem dois lados. A invasão à Mansão Leone, na Itália, inicia a história dos Marcados de Kian em busca de informações sobre as Relíquias da Calamidade. Mas, logo, algo além de seus poderes surge em meio às sombras, com um olhar raivoso por vingança.",
+                epDuration: "5h 2min",
+            },
+
+            {
+                epTitle: "Pacto - ",
+                epNum: "Episódio 3",
+                epThumb: "./img/calamidade/calamidade-thumb-ep3.jpg",
+                epSinopse: "Em um clima de luto, pactos e possíveis traições, os agentes continuam sua investigação na mansão da Família Leone. Carina se sente chamada pelo Outro Lado, onde se vê prestes a descobrir sobre a conexão com a sua marca.",
+                epDuration: "3h 50min",
+            },
+
+            {
+                epTitle: "Anfiteatro - ",
+                epNum: "Episódio 4",
+                epThumb: "./img/calamidade/calamidade-thumb-ep4.jpg",
+                epSinopse: "A Ordo Realitas se transfere para a Mansão Leone, para continuar a procurar pelas Relíquias da Calamidade. Uma nova pista vinda das páginas do grimório de Arnaldo Fritz leva os agentes da Ordem até um local conhecido por tantos, manchado pelo sangue, que se recusa a ruir pelo tempo e é regido pelo caos: O Coliseu.",
+                epDuration: "4h 5min",
+            },
+
+            {
+                epTitle: "Ordo Calamitas - ",
+                epNum: "Episódio 5",
+                epThumb: "./img/calamidade/calamidade-thumb-ep5.jpg",
+                epSinopse: "A Equipe Abutres continua a investigação do Coliseu, agora aliados aos poderes das sombras de Joui Jouki. No entanto, ao descerem para a porta de Semper Clausa, eles terão que confrontar as memórias do passado para poder entender a história da Ordem da Calamidade.",
+                epDuration: "4h 18min",
+            },
+
+            {
+                epTitle: "Jogos - ",
+                epNum: "Episódio 6",
+                epThumb: "./img/calamidade/calamidade-thumb-ep6.jpg",
+                epSinopse: "Os jogos começaram. A Equipe Abutres enfrenta os jogos de Amphitruo enquanto incorporam os guerreiros de Ordo Calamitas, para saber mais sobre as Relíquias da Calamidade. Entretanto, algo mais importante envolvendo o passado da Ordo Realitas os espera no fim do jogo.",
+                epDuration: "5h 9min",
+            },
+
+            {
+                epTitle: "Traição - ",
+                epNum: "Episódio 7",
+                epThumb: "./img/calamidade/calamidade-thumb-ep7.jpg",
+                epSinopse: "As regras estão mudando. Kian guia os Escriptas pelas ruínas de Domus Aurea para encontrar informações sobre a relação das Relíquias da Calamidade e Ordo Calamitas. Entretanto, a mitologia do local promete dificultar o trabalho de seus Marcados.",
+                epDuration: "5h 2min",
+            },
+
+            {
+                epTitle: "Escolha - ",
+                epNum: "Episódio 8",
+                epThumb: "./img/calamidade/calamidade-thumb-ep8.jpg",
+                epSinopse: "Entre brigas, escolhas e decisões a se fazer, a Equipe Abutres se vê envolvida em um dilema urgente: decidir o destino da Calamidade e escolher com quem se aliar na guerra.",
+                epDuration: "4h 35min",
+            },
+
+            {
+                epTitle: "Síntese - ",
+                epNum: "Episódio 9",
+                epThumb: "./img/calamidade/calamidade-thumb-ep9.jpg",
+                epSinopse: "Após uma intensa batalha pelos corredores de Ordo Calamitas, a Equipe Abutres tira um tempo para descansar e se recuperar. Mas logo, um novo desafio surge a sua frente: fazer um relatório de perdas e traições para um cansado Senhor Veríssimo.",
+                epDuration: "3h 41min",
+            },
+
+            {
+                epTitle: "Tempo - ",
+                epNum: "Episódio 10",
+                epThumb: "./img/calamidade/calamidade-thumb-ep10.jpg",
+                epSinopse: "Arthur, Balu e Rubens se unem aos membros dos Hell Hunters e da Obscurité para defender a Mansão Leone de uma invasão comandada por escriptas ligados ao Tempo.",
+                epDuration: "4h 42min",
+            },
+
+            {
+                epTitle: "Guerreiro - ",
+                epNum: "Episódio 11",
+                epThumb: "./img/calamidade/calamidade-thumb-ep11.jpg",
+                epSinopse: "A Guerra começou. Enquanto a Ordo Realitas entra em fogo cruzado com os Escriptas, Joui, Carina e Dante rumam ao centro da arena do Coliseu para combater Kian e seus Marcados.",
+                epDuration: "4h 1min",
+            },
+
+            {
+                epTitle: "Olhos - ",
+                epNum: "Episódio 12",
+                epThumb: "./img/calamidade/calamidade-thumb-ep12.jpg",
+                epSinopse: "Os olhos de Kian e dos agentes da Ordo Realitas continuam a se cruzar na batalha do Coliseu. E o futuro reserva muito mais mistérios a se descobrir.",
+                epDuration: "4h 28min",
+            },
+        ],
         data: "2021",
         background: "./img/calamidade/calamidade-logo.jpg",
         wallpaper: [
@@ -494,6 +599,15 @@ const infos = [
         id: 4,
         title: "O Segredo na Ilha",
         ep: "8",
+        listEp: [
+            {
+                epTitle: "- ",
+                epNum: "Episódio ",
+                epThumb: "./img/.jpg",
+                epSinopse: "",
+                epDuration: "h min",
+            },
+        ],
         data: "2022",
         background: "./img/o-segredo-na-ilha/osni-logo.jpg",
         wallpaper: ["./img/o-segredo-na-ilha/osni-wallpaper-1.jpg"],
@@ -516,6 +630,15 @@ const infos = [
         id: 5,
         title: "Sinais do Outro Lado",
         ep: "7",
+        listEp: [
+            {
+                epTitle: "- ",
+                epNum: "Episódio ",
+                epThumb: "./img/.jpg",
+                epSinopse: "",
+                epDuration: "h min",
+            },
+        ],
         data: "2022",
         background: "./img/sinais-do-outro-lado/sdol-logo.jpg",
         wallpaper: ["./img/sinais-do-outro-lado/sdol-wallpaper-1.jpg"],
@@ -538,6 +661,15 @@ const infos = [
         id: 6,
         title: "Ordem Paranormal: Quarentena",
         ep: "2",
+        listEp: [
+            {
+                epTitle: "- ",
+                epNum: "Episódio ",
+                epThumb: "./img/.jpg",
+                epSinopse: "",
+                epDuration: "h min",
+            },
+        ],
         data: "2023",
         background: "./img/quarentena/quarentena-logo.jpg",
         wallpaper: ["./img/quarentena/quarentena-wallpaper-1.jpg"],
@@ -586,7 +718,7 @@ const infos = [
                 epNum: "Episódio 2",
                 epThumb: "./img/sacramento/sacramento-thumb-ep2.jpg",
                 epSinopse:
-                    "Depois da confusão que ocorreu no Circo do Sol, a gangue precisa procurar uma maneira de limpar a ficha de Gaspar e arranjar mais dinheiro. Com isso eles recorrem ao dono da mina de Araguari, um homem rico que está tendo problemas com uma criatura que estava afastando as pessoas de sua propiedade.",
+                    "Voltando para Araguari, nossos cowboys foram procurar o motivo que tinha levados eles até lá. Zoi de Gato descobriu que algo estava acontecendo na mina da cidade. Os mineradores estavam desaparecendo misteriosamente. O comandante da mina, Sr. Martín, estava pagando muito bem quem solucionasse esse mistério.",
                 epDuration: "2h 22min",
             },
 
@@ -595,7 +727,7 @@ const infos = [
                 epNum: "Episódio 3",
                 epThumb: "./img/sacramento/sacramento-thumb-ep3.jpg",
                 epSinopse:
-                    "Após os eventos nas minas de Araguari a gangue segue à caminho da cidade de Sacramento, mas uma nevasca cai e eles precisam de um lugar para se abrigar. Mais à frente encontram uma casa, mas ela não abriga somente eles.",
+                    "Durante a viagem para Sacramento, nossos jogadores foram pegos por uma nevasca. O único abrigo que eles acharam mais à frente foi uma cabana. Quem estava nessa cabana abrigava não somente os cowboys mas também um monte de segredos.",
                 epDuration: "2h 21min",
             },
 
@@ -604,7 +736,7 @@ const infos = [
                 epNum: "Episódio 4",
                 epThumb: "./img/sacramento/sacramento-thumb-ep4.jpg",
                 epSinopse:
-                    "Chegando em Sacramento, os companheiros de gangue procuram um lugar para cuidar dos ferimentos de Horácio.",
+                    "Finalmente nossos companheiros estão em Sacramento. Zoi de Gato estava à procura de seu atual inimigo. Acontece que, em certo momento, ele finalmente entendeu o motivo de seu rival estar indo à Sacramento. A nossa gangue decidiu agir antes, mas não saíram sem um preço.",
                 epDuration: "2h 17min",
             },
 
@@ -613,7 +745,7 @@ const infos = [
                 epNum: "Episódio 5",
                 epThumb: "./img/sacramento/sacramento-thumb-ep5.jpg",
                 epSinopse:
-                    "Após o roubo das carroças de Casagrande, a gangue dos pavio curto voltam para Sacramento, levando Gaspar até a igreja local para tratar seus ferimentos. Na volta eles se encontram com Ceiça e pardal, que haviam chegado recentemente na cidade depois de terem resolvido assuntos pendentes.",
+                    "Os Pavio-Curto foram explorar a cidade de Sacramento. Carlos Cordeiro, da loja geral da cidade, disse que o Roger, dono do estábulo, foi algumas vezes à igreja pedir ajuda sagrada para seus cavalos doentes. Depois de conhecer Roger, os aventureiros esquentadinhos foram ajudá-lo a encontrar a erva medicinal acácia-rubra, que faria bem para o intestino dos equinos. Acontece que no fim das contas, não acharam só essa planta...",
                 epDuration: "2h 28min",
             },
 
@@ -621,7 +753,8 @@ const infos = [
                 epTitle: "Sempre com muita firmeza - ",
                 epNum: "Episódio 6",
                 epThumb: "./img/sacramento/sacramento-thumb-ep6.jpg",
-                epSinopse: "",
+                epSinopse:
+                    "Zoi de Gato disse que um trem viria por aí, e dentro dele vários homens e mulheres ricos. As vítimas perfeitas. Ele sugeriu de interceptar esse trem e roubar os passageiros. Mal sabiam eles que conheceriam Cristina, uma caçadora de recompensas que foir contratada pelos ricos para reforçar a segurança. Bem que os jogadores desejariam que esse fosse o único problema...",
                 epDuration: "3h 9min",
             },
 
@@ -629,7 +762,8 @@ const infos = [
                 epTitle: "Eu sou a encrenca - ",
                 epNum: "Episódio 7",
                 epThumb: "./img/sacramento/sacramento-thumb-ep7.jpg",
-                epSinopse: "",
+                epSinopse:
+                    "A noite dos cowboys foi interrompida pelo Bispo, que apareceu de repente nan madugada. Não existia conversa, somente as balas de um revólver. Depois de uma dura batalha, os Pavio Curto foram ajudar Luzia a recuperar seu precioso violão. Foi mais perigoso do que deveria.",
                 epDuration: "2h 32min",
             },
 
@@ -637,7 +771,8 @@ const infos = [
                 epTitle: "Esse papo de aberração ressoa comigo - ",
                 epNum: "Episódio 8",
                 epThumb: "./img/sacramento/sacramento-thumb-ep8.jpg",
-                epSinopse: "",
+                epSinopse:
+                    "Finalmente chegou o dia da festa. A tal Festa da Provação. Os Pavio Curto, festeiros do jeito que são não podiam deixar de perder uma farra. Ao chegar lá, se depararam com um monte de caixas enigmaticas, várias pistas sobre o que estava acontecendo na cidade, e várias surpresas que gostariam de não ter encontrado...",
                 epDuration: "3h 16min",
             },
 
@@ -645,7 +780,8 @@ const infos = [
                 epTitle: "Tirou minha visão, mas não o amor dentro de mim - ",
                 epNum: "Episódio 9",
                 epThumb: "./img/sacramento/sacramento-thumb-ep9.jpg",
-                epSinopse: "",
+                epSinopse:
+                    "Ao explorar um pouco a mansão da Festa da Provação, os Pavio Curto descobriram que na verdade, existiam 7 Bispos Sagrados num total. A descoberta foi interrompida por um deles, inclusive que estava disfarçado de mordomo. Eles saíram da mansão. tentando levar consigo a alma do Bispo Czar. Os Pavio Curto apagaram todos que estavam naquela festa, e começaram a ver as consequências reverberando na cidade.",
                 epDuration: "2h 19min",
             },
 
@@ -653,7 +789,8 @@ const infos = [
                 epTitle: "Um fim menos miserável - ",
                 epNum: "Episódio 10",
                 epThumb: "./img/sacramento/sacramento-thumb-ep10.jpg",
-                epSinopse: "",
+                epSinopse:
+                    "Durante a Festa da Provação, os Pavio Curto acharam uma agenda que dizia que um homem chamado Caim, havia se mudado para um pântano próximo da 'sede' de Sacramento. Eles decidiram ir conferir, e tiveram suas expectativas quebradas, ao encontrar várias coisas inusitadas nesse pântano.",
                 epDuration: "2h 39min",
             },
 
@@ -661,7 +798,8 @@ const infos = [
                 epTitle: "A gente tem uma nova família - ",
                 epNum: "Episódio 11",
                 epThumb: "./img/sacramento/sacramento-thumb-ep11.jpg",
-                epSinopse: "",
+                epSinopse:
+                    "O acampamento foi surpreendido pela chegada de um menino. Desconfiados, os Pavio Curto estavam certos em estar com o pé atrás em relação à um menino se aproximando no meio da noite. Do horizonte, foram pegos de surpresa pela Bispa Leviana e seus vários homens. Conseguiram fugir, mas por pouco. Zoi de Gato sugere irem até a cidade de Bom Fim, que é relativamente distante, mas que possuem contas a acertar.",
                 epDuration: "2h 7min",
             },
 
@@ -669,7 +807,8 @@ const infos = [
                 epTitle: "Parece que isso explica os nossos pesadelos - ",
                 epNum: "Episódio 12",
                 epThumb: "./img/sacramento/sacramento-thumb-ep12.jpg",
-                epSinopse: "",
+                epSinopse:
+                    "Os Pavio Curto ainda possuem coisas a fazer em Bom Fim. Ao descobrir que um dos Bispos está por lá, eles agora tem que arrumar um jeito de se livrar do mesmo. Eles só não contavam que esse Bispo era bastante habilidoso.",
                 epDuration: "2h 38min",
             },
 
@@ -677,7 +816,8 @@ const infos = [
                 epTitle: "Se eu não posso absolvê-los, o Sol vai - ",
                 epNum: "Episódio 13",
                 epThumb: "./img/sacramento/sacramento-thumb-ep13.jpg",
-                epSinopse: "",
+                epSinopse:
+                    "Ao sair do pântano, depois de encontrarem o Bispo Baltazar, os Pavio Curto deram direto com o que eles menos queriam: outro Bispo Sagrado. A Bispa Leviana teve sua mão decepada pelo revólver da Cristina, mas não puderam escapar da emboscada que foi armada por ela, levando-os para uma prisão em uma ilha.",
                 epDuration: "3h 12min",
             },
 
@@ -685,7 +825,8 @@ const infos = [
                 epTitle: "Esse lugar é realmente especial - ",
                 epNum: "Episódio 14",
                 epThumb: "./img/sacramento/sacramento-thumb-ep14.jpg",
-                epSinopse: "",
+                epSinopse:
+                    "Encontrar Vanessa, a malabarista do circo, na prisão de Leviana, trouxe várias perguntas, mas também muitas respostas. Ela disse que provavelmente a mãe de Golias estaria na cidade montanhosa de Varginha. Ao chegar lá, foram muito bem recebidos, comida boa, festa e muita simpatia. Mas algo estava errado.",
                 epDuration: "2h 19min",
             },
 
@@ -693,7 +834,8 @@ const infos = [
                 epTitle: "Ainda bem que um de nós dois é forte - ",
                 epNum: "Episódio 15",
                 epThumb: "./img/sacramento/sacramento-thumb-ep15.jpg",
-                epSinopse: "",
+                epSinopse:
+                    "Descobrir segredos de alguém é sempre emocionante. A sensação de adrenalina pulsa e, a sensação de satisfação é melhor quando é um inimigo seu. Dessa vez os Pavio Curto tentaram cavar o passado da Bispa Batista, que com certeza esconde segredos até demais, dos pobres coitados cidadãos de Varginha.",
                 epDuration: "2h 58min",
             },
 
@@ -701,7 +843,8 @@ const infos = [
                 epTitle: "Você teve escolha - ",
                 epNum: "Episódio 16",
                 epThumb: "./img/sacramento/sacramento-thumb-ep16.jpg",
-                epSinopse: "",
+                epSinopse:
+                    "Depois de Golias visitar, inesperadamente, sua mãe, em Varginha, vários problemas foram solucionados. Porém, no caminho de volta, Ceiça apareceu, dizendo que homens apareceram no acampamento e levaram nosso amigo Zoi de Gato. Entretanto, durante todo esse tempo, os inimigos do Pavio Curto tinham uma coisa em comum, as roupas sagradas. Ceiça disse que os homens não a usavam. Um deles, inclusive, mandou um recado para Horácio, dizendo para encontrá-lo em casa. Horácio sabe que, terá que voltar até a sua cidade para ver quem é o homem, e o que ele quer na sua cidade.",
                 epDuration: "2h 52min",
             },
 
@@ -709,7 +852,8 @@ const infos = [
                 epTitle: "Um marco na história - ",
                 epNum: "Episódio 17",
                 epThumb: "./img/sacramento/sacramento-thumb-ep17.jpg",
-                epSinopse: "",
+                epSinopse:
+                    "Os Pavio Curto foram convidados à aparecer na rua principal de Sacramento, no primeiro dia que marca o Verão.",
                 epDuration: "4h 15min",
             },
 
@@ -717,7 +861,8 @@ const infos = [
                 epTitle: "A história dos Fivela de Cobra - ",
                 epNum: "Episódio extra",
                 epThumb: "./img/sacramento/sacramento-thumb-spinoff.jpg",
-                epSinopse: "",
+                epSinopse:
+                    "Uma história sempre tem dois lados. Nessa aventura ÚNICA, é contada a história da gangue dos Fivela de Cobra.",
                 epDuration: "4h 56min",
             },
         ],
@@ -790,6 +935,15 @@ const infos = [
         id: 9,
         title: "Espiral",
         ep: "3",
+        listEp: [
+            {
+                epTitle: "- ",
+                epNum: "Episódio ",
+                epThumb: "./img/.jpg",
+                epSinopse: "",
+                epDuration: "h min",
+            },
+        ],
         data: "2022",
         background: "./img/espiral/espiral-logo.jpg",
         wallpaper: [],
@@ -811,6 +965,15 @@ const infos = [
         id: 10,
         title: "O Espelho do Pavão",
         ep: "2",
+        listEp: [
+            {
+                epTitle: "- ",
+                epNum: "Episódio ",
+                epThumb: "./img/.jpg",
+                epSinopse: "",
+                epDuration: "h min",
+            },
+        ],
         data: "2023",
         background: "./img/o-espelho-do-pavao/oedp-logo.jpg",
         wallpaper: ["./img/o-espelho-do-pavao/oedp-wallpaper-1.jpg"],
