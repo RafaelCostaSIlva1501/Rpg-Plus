@@ -31,26 +31,22 @@ body {
     background-color: #1c1c1f;
 
     animation: hidden 5s;
-    opacity: 0;
+    z-index: 10;
+}
+
+.hidden {
+    display: none;
 }
 
 @keyframes hidden {
     0% {
-        z-index: 10;
         opacity: 1;
     }
     90% {
-        z-index: 10;
         opacity: 1;
     }
-
-    95% {
-        z-index: 10;
-        opacity: 0;
-    }
-
     100% {
-        z-index: 0;
+        opacity: 0;
     }
 }
 
@@ -59,7 +55,7 @@ body {
 
     box-shadow: 0px 0px 20px #e23d48b0;
 
-    animation: rotateCoin 2s ease-in-out;
+    animation: rotateCoin 4s ease-in-out;
 }
 
 @keyframes rotateCoin {
@@ -69,22 +65,21 @@ body {
     }
     10% {
         transform: scale(1);
-        box-shadow: 0px 0px 20px #e23d48b0;
     }
     20% {
-        box-shadow: 0px 0px 15px #e23d48b0;
-    }
-    30% {
         box-shadow: 0px 0px 20px #e23d48b0;
     }
-    50% {
+    40% {
         box-shadow: 0px 0px 15px #e23d48b0;
     }
     60% {
         box-shadow: 0px 0px 20px #e23d48b0;
     }
-    70% {
+    80% {
         box-shadow: 0px 0px 15px #e23d48b0;
+    }
+    100% {
+        box-shadow: 0px 0px 20px #e23d48b0;
     }
 }
 
