@@ -30,22 +30,25 @@ body {
 
     background-color: #1c1c1f;
 
-    z-index: 10;
-
     animation: hidden 5s;
     opacity: 0;
 }
 
 @keyframes hidden {
     0% {
+        z-index: 10;
         opacity: 1;
     }
     95% {
         opacity: 1;
     }
 
-    100% {
+    95% {
         opacity: 0;
+    }
+
+    100% {
+        z-index: 0;
     }
 }
 
