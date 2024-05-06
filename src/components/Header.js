@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
             <header className="header-home">
-                <h1>RPG+</h1>
+                <img src="./img/rpg-plus-logo-1.png" alt="Logo RPG+"></img>
                 <button onClick={() => searchON()}>
                     <span className="material-symbols-outlined">search</span> 
                 </button>
