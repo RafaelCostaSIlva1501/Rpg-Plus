@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./styles/index.css";
 import App from "./App";
 
+import Opening from "./components/Opening.js";
 import Header from "./components/Header.js";
 import Main from "./components/Main.js";
 import Section from "./components/Section.js";
@@ -15,6 +16,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <React.StrictMode>
+        <Opening />
         <ModalProvider>
             <Header />
             <Main />

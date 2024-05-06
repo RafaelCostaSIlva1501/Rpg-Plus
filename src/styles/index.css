@@ -19,6 +19,70 @@ body {
     background-color: #1c1c1f;
 }
 
+.opening {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #1c1c1f;
+
+    z-index: 10;
+
+    animation: hidden 5s;
+    opacity: 0;
+}
+
+@keyframes hidden {
+    0% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.opening img {
+    border-radius: 50%;
+
+    box-shadow: 0px 0px 20px #e23d48b0;
+
+    animation: rotateCoin 2s ease-in-out;
+}
+
+@keyframes rotateCoin {
+    0% {
+        transform: scale(0);
+        box-shadow: 0px 0px 5px #e23d48b0;
+    }
+    10% {
+        transform: scale(1);
+        box-shadow: 0px 0px 20px #e23d48b0;
+    }
+    20% {
+        box-shadow: 0px 0px 15px #e23d48b0;
+    }
+    30% {
+        box-shadow: 0px 0px 20px #e23d48b0;
+    }
+    50% {
+        box-shadow: 0px 0px 15px #e23d48b0;
+    }
+    60% {
+        box-shadow: 0px 0px 20px #e23d48b0;
+    }
+    70% {
+        box-shadow: 0px 0px 15px #e23d48b0;
+    }
+}
+
 .header-home {
     display: flex;
     flex-direction: row;
@@ -29,9 +93,9 @@ body {
 
     width: 100%;
 
-    padding: 10px;
+    padding: 5px 10px;
 
-    background: linear-gradient(to bottom, #000000, #00000000);
+    background: linear-gradient(to bottom, #000000, #0000001a);
 }
 
 .header-home button {
@@ -46,7 +110,7 @@ body {
 }
 
 .header-home img {
-    width: 150px;
+    width: 100px;
 }
 
 main {
@@ -259,7 +323,7 @@ main {
 .modal {
     display: flex;
     flex-direction: column;
-    
+
     position: absolute;
     top: 0;
     left: 50%;
@@ -345,7 +409,7 @@ main {
     overflow-y: auto;
 }
 
-.modal-details-a  > button {
+.modal-details-a > button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -363,7 +427,7 @@ main {
     cursor: pointer;
 }
 
-.modal-details-a  > button:hover {
+.modal-details-a > button:hover {
     background-color: #0000005d;
 }
 
@@ -497,12 +561,12 @@ main {
 
     position: fixed;
     top: 0;
-    
+
     width: 100vw;
     height: 100vh;
 
     background: linear-gradient(to bottom, #1c1c1f, #2a2a2c);
- 
+
     z-index: 1;
 }
 
@@ -557,7 +621,6 @@ main {
     border: 1px solid red;
 }
 
-
 .container-input input {
     background: none;
     border: none;
@@ -594,4 +657,3 @@ main {
 .search-content::-webkit-scrollbar-thumb:hover {
     background: #88888867;
 }
-
