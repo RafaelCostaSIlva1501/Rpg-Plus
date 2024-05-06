@@ -39,11 +39,13 @@ body {
         z-index: 10;
         opacity: 1;
     }
-    95% {
+    90% {
+        z-index: 10;
         opacity: 1;
     }
 
     95% {
+        z-index: 10;
         opacity: 0;
     }
 
