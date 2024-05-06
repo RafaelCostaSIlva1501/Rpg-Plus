@@ -6,9 +6,19 @@ import infos from "./dados";
 const Search = () => {
     const { searchState, searchOFF, modalON, index } = useModal();
 
-    if (searchState) {
-        return (
-            <>
+    const [searchTerm, setSearchTerm] = useState("");
+
+    const valueSearch = (event) => {
+        setSearchTerm(event.target.value);
+    };
+
+    const filteredArticles = infos.filter((info) =>
+        info.tag.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
+    return (
+        <>
+            {searchState && (
                 <section className="search-modal">
                     <div className="search-input">
                         <button onClick={() => searchOFF()}>
@@ -25,14 +35,16 @@ const Search = () => {
                             <input
                                 type="text"
                                 placeholder="Pesquise o que quer assistir"
+                                value={searchTerm}
+                                onChange={valueSearch}
                             ></input>
                         </div>
                     </div>
 
                     <div className="search-content">
-                        {infos.map((info, idx) => (
+                        {filteredArticles.map((info, idx) => (
                             <Articles
-                                key={index}
+                                key={idx}
                                 background={info.background}
                                 title={info.title}
                                 ep={info.ep}
@@ -41,9 +53,9 @@ const Search = () => {
                         ))}
                     </div>
                 </section>
-            </>
-        );
-    }
+            )}
+        </>
+    );
 };
 
 export default Search;

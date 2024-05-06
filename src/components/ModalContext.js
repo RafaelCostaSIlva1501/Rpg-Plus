@@ -20,16 +20,16 @@ export const ModalProvider = ({ children }) => {
         setModalState(false);
     };
 
-    const searchON = () => {
+    const searchModalON = () => {
         setSearchState(true)
     }
 
-    const searchOFF = () => {
+    const searchModalOFF = () => {
         setSearchState(false)
     }
 
     return (
-        <ModalContext.Provider value={{ modalState, modalON, modalOFF, index, searchState, searchON, searchOFF }}>
+        <ModalContext.Provider value={{ modalState, modalON, modalOFF, index, searchState, searchON: searchModalON, searchOFF: searchModalOFF }}>
             {children}
         </ModalContext.Provider>
     );

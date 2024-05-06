@@ -45,7 +45,7 @@ const infos = [
             "Rakin (Thiago Fritz), ",
             "Ljoga (Alexsander Kothe).",
         ],
-        tag: [],
+        tag: "a ordem paranormal terror degolificada cellbit sangue escola nostradamus aop",
     },
 
     //O Segredo na Floresta
@@ -231,7 +231,7 @@ const infos = [
             "Kalera (Eva van Gloss), ",
             "Leo Santi (Kenan Thomas).",
         ],
-        tag: [],
+        tag: "ordem paranormal o segredo na floresta cellbit floresta morte terror osnf",
     },
 
     //Desconjuração
@@ -456,7 +456,7 @@ const infos = [
             "Felps (Rubens Naluti), ",
             "Bastet (Salazar Lourenço)",
         ],
-        tag: [],
+        tag: "ordem paranormal desconjuração terror desconjuracao kian escriptas cellbit kaiser",
     },
 
     //Calamidade
@@ -608,7 +608,7 @@ const infos = [
             "Kalera (Yuki Saito), ",
             "Bastet (Henri).",
         ],
-        tag: [],
+        tag: "ordem paranormal calamidade cellbit kian anfitriao terror pacto diabo",
     },
 
     //O Segredo na Ilha
@@ -640,7 +640,7 @@ const infos = [
             "Rakin (Wanderley Nascimento), ",
             "Guaxinim (Arthur Cervero).",
         ],
-        tag: [],
+        tag: "o segredo na ilha ordem paranormal cellbit noralma terror tenebris osni",
     },
 
     //Sinais do Outro Lado
@@ -672,7 +672,7 @@ const infos = [
             "Guaxinim (Alexandre), ",
             "Rakin (Arnaldo Fritz).",
         ],
-        tag: [],
+        tag: "ordem paranormal sinais do outro lado estrangeiro cellbit sdol terror cellbit",
     },
 
     //Quarentena
@@ -706,7 +706,7 @@ const infos = [
             "Gabi (Carol), ",
             "Rakin (Controlador aéreo).",
         ],
-        tag: [],
+        tag: "ordem paranormal quarentena panacea nidere terror cellbit",
     },
 
     //Sacramento
@@ -902,7 +902,7 @@ const infos = [
             "Leo Santi (Juarez), ",
             "Carol Zaghetti (Clarice).",
         ],
-        tag: [],
+        tag: "sacramento faroeste calango zói de gato bispos o sol das seis o sol das 6",
     },
 
     //Assimilação
@@ -949,7 +949,7 @@ const infos = [
             "Gustavo de Castro (Lito), ",
             "Gabriel Henud (Jorge).",
         ],
-        tag: [],
+        tag: "assimilação assimilacao rakin horto",
     },
 
     //Espiral
@@ -980,7 +980,7 @@ const infos = [
             "Bastet (Marcelo Antunes), ",
             "Monge Han (Will Hyun Kim).",
         ],
-        tag: ["ordem", "paranormal", "pedrok", "espiral"],
+        tag: "ordem espiral paranormal pedrok terror",
     },
 
     //O Espelho do Pavão
@@ -1010,7 +1010,7 @@ const infos = [
             "Lavi (Antonella Quirino), ",
             "Cellbit (Saulo Espencio).",
         ],
-        tag: [],
+        tag: "ordem cast ordem paranormal o espelho do pavão o espelho do pavao",
     },
 ];
 
