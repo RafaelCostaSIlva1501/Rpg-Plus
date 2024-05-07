@@ -12,7 +12,7 @@ const infos = [
                 epSinopse:
                     "Três detetives paranormais são convocados para investigar um misterioso caso de um bombeiro que foi encontrado sem vida numa escola.",
                 epDuration: "6h 26min",
-                src: "https://www.youtube.com/watch?v=uplnCYc0fDg&t=295s&pp=ygUSYSBvcmRlbSBwYXJhbm9ybWFs",
+                src: "https://www.youtube.com/embed/uplnCYc0fDg?si=1-jwkEbCCMCZbFiw",
             },
 
             {
@@ -22,7 +22,7 @@ const infos = [
                 epSinopse:
                     "Cercados por incertezas, os membros da ordem retornam ao local de sua missão, onde seus caminhos mudarão completamente.",
                 epDuration: "3h 31min",
-                src: "https://www.youtube.com/watch?v=4Ud5QQ2IEgU&t=1583s",
+                src: "https://www.youtube.com/embed/4Ud5QQ2IEgU?si=iDPzWiiw9vXNQi-0",
             },
 
             {
@@ -32,7 +32,7 @@ const infos = [
                 epSinopse:
                     "A primeira missão da Ordem da Verdade chega ao confronto final.",
                 epDuration: "3h 57min",
-                src: "https://www.youtube.com/watch?v=dtcsHSAEik8&t=2s",
+                src: "https://www.youtube.com/embed/dtcsHSAEik8?si=1Qfzi0PWkurneXFS",
             },
         ],
         data: "2020",
@@ -64,6 +64,7 @@ const infos = [
                 epSinopse:
                     "Cinco membros da Ordo Veritatis são enviados para investigar a morte de um homem e o desaparecimento de uma equipe da Ordem em Carpazinha, no interior do Rio Grande do Sul.",
                 epDuration: "4h 36min",
+                src: "https://www.youtube.com/embed/23z-tCHgMGI?si=wRFKXuz6kdBWhLgy",
             },
 
             {
@@ -73,6 +74,7 @@ const infos = [
                 epSinopse:
                     "Investigando uma lenda local, Thiago, Liz, Cris, Joui e Cesar vão ao antigo sanatório da cidade, onde descobrem mais sobre o sombrio passado da cidade e enfrentam o que restou do terror daquele tempo.",
                 epDuration: "4h 56min",
+                src: "https://www.youtube.com/embed/sq37bBDs8vk?si=5kil8mycetzkEdsH",
             },
 
             {
@@ -82,6 +84,7 @@ const infos = [
                 epSinopse:
                     "Ao visitar um bar, a equipe se depara com um terrível assassinato próximo ao local, agora precisam adentrar a floresta e enfrentar o horror que nela se esconde.",
                 epDuration: "4h 21min",
+                src: "https://www.youtube.com/embed/qzUD-387XhM?si=nsesEmvgn33RX-d-",
             },
 
             {
@@ -91,6 +94,7 @@ const infos = [
                 epSinopse:
                     "O enterro de um dos seus chacoalha a equipe. O passado de Brúlio, líder da gangue de motoqueiros local, dá pistas sobre uma das bases de operação ocultistas.",
                 epDuration: "4h 25min",
+                src: "https://www.youtube.com/embed/NhhnGF1Lpx4?si=OoES3gOXKnE-BKd8",
             },
 
             {
@@ -100,6 +104,7 @@ const infos = [
                 epSinopse:
                     "Após concluir uma varredura no casarão, a equipe investiga uma estranha ocorrência no Cemitério de Carpazinha.",
                 epDuration: "4h 51min",
+                src: "https://www.youtube.com/embed/mtXiwMX0K-c?si=aLQn1mNEr0BGlzg9",
             },
 
             {
@@ -109,6 +114,7 @@ const infos = [
                 epSinopse:
                     "Após concluir uma varredura no casarão, a equipe investiga uma estranha ocorrência no Cemitério de Carpazinha.",
                 epDuration: "4h 26min",
+                src: "https://www.youtube.com/embed/03Led-EYcA8?si=mYJmvnhBlKn8pUlK",
             },
 
             {
@@ -118,6 +124,7 @@ const infos = [
                 epSinopse:
                     "Após concluir uma varredura no casarão, a equipe investiga uma estranha ocorrência no Cemitério de Carpazinha.",
                 epDuration: "4h 26min",
+                src: "https://www.youtube.com/embed/VldAD6_DMgw?si=6LKqy16x4aF6gNob",
             },
 
             {
@@ -127,6 +134,7 @@ const infos = [
                 epSinopse:
                     "Ainda se recuperando das perdas e fraturas de sua missão, a equipe tira a noite para repassar as informações do caso.",
                 epDuration: "4h 26min",
+                src: "https://www.youtube.com/embed/gYdRp7eohyQ?si=2Qv0xWyGu9SOn1yr",
             },
 
             {
@@ -136,6 +144,7 @@ const infos = [
                 epSinopse:
                     "A equipe encontra a perdida cidade de Santo Berço, isolada do mundo entre a floresta. Lá, eles conhecem seus habitantes e as lendas e perigos nela escondidos.",
                 epDuration: "4h 10min",
+                src: "https://www.youtube.com/embed/En2JC9n66bo?si=J1bCEzCapECLctKN",
             },
 
             {
@@ -145,6 +154,7 @@ const infos = [
                 epSinopse:
                     "Após escaparem das criaturas da noite de Santo Berço, a equipe se hospeda no hotel do vilarejo apenas para passar por uma das mais traumáticas experiências de suas vidas.",
                 epDuration: "4h",
+                src: "https://www.youtube.com/embed/ZCY9Ez6gzfY?si=8bUABFCsy0fmyGo0",
             },
 
             {
@@ -154,6 +164,7 @@ const infos = [
                 epSinopse:
                     "Com o Santo Berço em luto pela morte de um dos seus, a equipe tenta descobrir que tipo de criatura está atacando os animais da fazenda.",
                 epDuration: "3h 50min",
+                src: "https://www.youtube.com/embed/lPEH0PmDA9M?si=5W02x9gTuYuHcWJx",
             },
 
             {
@@ -163,6 +174,7 @@ const infos = [
                 epSinopse:
                     "Enfrentando uma horda de monstros na névoa da floresta, a equipe retorna ao Santo Berço, descobrindo a verdade sobre seus habitantes queridos.",
                 epDuration: "3h 56min",
+                src: "https://www.youtube.com/embed/Rjkt4KpNpBM?si=0-2quB_JCpl6WW7U",
             },
 
             {
@@ -172,6 +184,7 @@ const infos = [
                 epSinopse:
                     "Dentro da caverna de Santo Berço, o grupo firma seu companheirismo, enfrentando monstros horríveis e encontrando mais respostas do que esperavam.",
                 epDuration: "3h 46min",
+                src: "https://www.youtube.com/embed/cOTLH2R_iiE?si=cZSnA5MK_0vA6ABO",
             },
 
             {
@@ -181,6 +194,7 @@ const infos = [
                 epSinopse:
                     "Atravessando a porta da mina a equipe faz descobertas sobre a origem e o funcionamento do Santo Berço. E encontram ligações com um caso antigo, o peso de um sacrifício divide o grupo.",
                 epDuration: "3h 13min",
+                src: "https://www.youtube.com/embed/jVJkjOOFIyw?si=SIgSPeN-9605ISj2",
             },
 
             {
@@ -190,6 +204,7 @@ const infos = [
                 epSinopse:
                     "A equipe E econtra um dos membros da Equipe Kelvin dentro do Labirinto. Ele conta sobre a missão do grupo em Carpazinha, sua chegada ao Santo Berço e seu trágico destino.",
                 epDuration: "4h 2min",
+                src: "https://www.youtube.com/embed/o6_N14zB80s?si=VHtpriWoiKsg-Dmz",
             },
 
             {
@@ -199,6 +214,7 @@ const infos = [
                 epSinopse:
                     "A equipe E ruma ao coração de Santo Berço para destruí-lo. Lutando com a morte e a loucura, a equipe descobre que dar sua vida para cumprir a missão pode significar algo ainda mais macabro do que pensavam",
                 epDuration: "3h 58min",
+                src: "https://www.youtube.com/embed/BH-yFQo882w?si=tBzj8bf_EjSCdA-z",
             },
 
             {
@@ -208,6 +224,7 @@ const infos = [
                 epSinopse:
                     "Os jogadores e o mestre se reúnem mais uma vez para comentar sobre a campanha jogada e revelar enfim, qual o segredo na floresta",
                 epDuration: "2h 9min",
+                src: "https://www.youtube.com/embed/1bqHTmcCicY?si=Sub1Y_xkQ5FCFxo5",
             },
         ],
         data: "2020",
@@ -250,6 +267,7 @@ const infos = [
                 epSinopse:
                     "Após os eventos de O Segredo na Floresta, um novo grupo de agentes se unem investigar o desaparecimento de Elizabeth Webber, que estava na caça de uma célula ocultista conhecida apenas como Ordem da Desconjuração.",
                 epDuration: "4h 5min",
+                src: "https://www.youtube.com/embed/b7PvLWZR6pg?si=N8T16XjZL4YLezon",
             },
 
             {
@@ -259,6 +277,7 @@ const infos = [
                 epSinopse:
                     "Descendo até o estacionamento de um prédio suspeito, a equipe da Ordem enfrenta ocultistas, Zumbis de Sangue e seus próprios conflitos enquanto procura por explicações.",
                 epDuration: "4h 40min",
+                src: "https://www.youtube.com/embed/NWcpezJHlb8?si=fWbAflFJWQ4j-nac",
             },
 
             {
@@ -268,6 +287,7 @@ const infos = [
                 epSinopse:
                     "De volta à base da Ordem após um duro confronto, a equipe se recupera dos ferimentos e descobre uma nada ortodoxa maneira de enfrentar seus inimigos. Os agentes da Ordem veem uma estranha coincidência os unindo a um orfanato abandonado.",
                 epDuration: "4h 38min",
+                src: "https://www.youtube.com/embed/NDq5ETNosdA?si=rMVYUwTJRPAhsN5Y",
             },
 
             {
@@ -277,6 +297,7 @@ const infos = [
                 epSinopse:
                     "Ainda investigando o desaparecimento de Elizabeth Webber, o grupo se vê obrigado a aliar-se com um ocultista preso pela Ordem, Dante. Seguindo as pistas e informações encontradas a equipe se dirige ao Orfanato Santa Menefreda em busca de respostas.",
                 epDuration: "3h 41min",
+                src: "https://www.youtube.com/embed/sn4B_3KyzYw?si=7XPj1q_mmbpvNmd3",
             },
 
             {
@@ -286,6 +307,7 @@ const infos = [
                 epSinopse:
                     "A equipe continua explorando o misterioso orfanato em busca de respostas sobre sua amiga desaparecida. Entre desafios mortais e conhecimentos ocultos, lutar é a única saída para encontrar quem procuram.",
                 epDuration: "4h 25min",
+                src: "https://www.youtube.com/embed/3XoyEwGk_MA?si=uanvitKfD0FP7fIi",
             },
 
             {
@@ -295,6 +317,7 @@ const infos = [
                 epSinopse:
                     "Após uma longa investigação, a equipe finalmente encontra a agente Elizabeth em um orfanato abandonado, presa por um misterioso grupo nomeado 'Escriptas'.",
                 epDuration: "6h 47min",
+                src: "https://www.youtube.com/embed/LepK245_uUw?si=9xAjg-H7pnPcCAN9",
             },
 
             {
@@ -304,6 +327,7 @@ const infos = [
                 epSinopse:
                     "Preocupados com os colegas, Erin e Fernando saem em busca de sua equipe no Orfanato, mas acabam presos no estranho Jogo do Anfitrião, contando apenas com a ajuda de dois desconhecidos para escapar.",
                 epDuration: "4h 33min",
+                src: "https://www.youtube.com/embed/Bi0KoBhpeCw?si=N4SHDEW7FzHF4cwh",
             },
 
             {
@@ -313,6 +337,7 @@ const infos = [
                 epSinopse:
                     "Os agentes da Ordem, juntos do Senhor Veríssimo, começam a traçar os seus próximos passos em busca da verdade por trás de Kian.",
                 epDuration: "4h 7min",
+                src: "https://www.youtube.com/embed/mrJvp64_tL4?si=dY6JlVUcC7rx7J7p",
             },
 
             {
@@ -322,6 +347,7 @@ const infos = [
                 epSinopse:
                     "O grupo enfrenta a misteriosa Seita das Máscaras na base da Ordem e continua sua investigação sobre Kian e os Escriptas, explorando uma mansão assombrada.",
                 epDuration: "4h 31min",
+                src: "https://www.youtube.com/embed/N0jF0svrc7w?si=BY9Yo-9YYJWQSnbu",
             },
 
             {
@@ -331,6 +357,7 @@ const infos = [
                 epSinopse:
                     "A equipe continua investigando a misteriosa Mansão Endiabrada após um acontecimento terrível. E a cada passo a mais que dão, cada vez mais mistérios surgem em volta de tudo.",
                 epDuration: "4h 46min",
+                src: "https://www.youtube.com/embed/epdl81SKm6o?si=zuBIXIAacJt7sfLZ",
             },
 
             {
@@ -340,6 +367,7 @@ const infos = [
                 epSinopse:
                     "Após uma intensa investigação, os agentes decidem montar uma estratégia para descansar na perigosa mansão. Porém, nesse lugar amaldiçoado, tudo pode acontecer...",
                 epDuration: "4h 12min",
+                src: "https://www.youtube.com/embed/lkjp80bSj2g?si=mAMwWHrT-_o1rAwQ",
             },
 
             {
@@ -349,6 +377,7 @@ const infos = [
                 epSinopse:
                     "Com um ar de tristeza e tensão pairando a Mansão Endiabrada, o grupo de agentes continua novamente sua investigação, tentando enfrentar os seus conflitos e passando por novas mudanças em suas vidas.",
                 epDuration: "4h 1min",
+                src: "https://www.youtube.com/embed/7Nticvm0PbM?si=N31VJScNufPu67uU",
             },
 
             {
@@ -358,6 +387,7 @@ const infos = [
                 epSinopse:
                     "Entre mistérios e conflitos, os agentes da Ordem continuam sua investigação pela Mansão Endiabrada, conseguindo cada vez mais respostas sobre o passado desse misterioso local, e principalmente sobre Kian.",
                 epDuration: "4h 39min",
+                src: "https://www.youtube.com/embed/e7UDrn-wDks?si=U1J5re06VLPRcGg-",
             },
 
             {
@@ -367,6 +397,7 @@ const infos = [
                 epSinopse:
                     "Os agentes se preparam para enfrentar a criatura conhecida como O Espreitador. No entanto, contratempos e a chegada de Ivete prometem complicar ainda os trabalhos da equipe.",
                 epDuration: "3h 50min",
+                src: "https://www.youtube.com/embed/g9i8d-bSWRA?si=EOrFo3YyHGWgKVgq",
             },
 
             {
@@ -376,6 +407,7 @@ const infos = [
                 epSinopse:
                     "De volta à base depois dos horrores sofridos na mansão, a equipe divide seu tempo entre tratamentos médicos e homenagens. Mas quando Dante testa seu novo ritual, ele passa a ver o dilema de Beatrice de uma nova forma.",
                 epDuration: "4h 5min",
+                src: "https://www.youtube.com/embed/ta4x_cV5OJw?si=hRHQLom6m5h1wFMA",
             },
 
             {
@@ -385,6 +417,7 @@ const infos = [
                 epSinopse:
                     "Descansados e recuperados, os agentes retomam a missão na Mansão Endiabrada. Porém, uma estranha melodia inacabada parece ecoar no caminho da equipe.",
                 epDuration: "4h 34min",
+                src: "https://www.youtube.com/embed/kqF7svnqhy0?si=9jstWGltZLe0KjhD",
             },
 
             {
@@ -394,6 +427,7 @@ const infos = [
                 epSinopse:
                     "Os agentes se preparam para a última parte da investigação da Mansão Endiabrada. Mas o que eles não esperam é um preço a se pagar ao final da investigação.",
                 epDuration: "4h 17min",
+                src: "https://www.youtube.com/embed/nAqPmCAuWxo?si=74-WD5LBHDVGYySj",
             },
 
             {
@@ -403,6 +437,7 @@ const infos = [
                 epSinopse:
                     "A última parte da investigação sobre Kian, Leonardo Gomes e os Escriptas se inicia. Uma urgência traz novamente os agentes da Ordem até a Mansão Endiabrada, onde o evento conhecido como Desconjuração está prestes a ser iniciado.",
                 epDuration: "4h 55min",
+                src: "https://www.youtube.com/embed/ZEpMspaVfDw?si=4827jy-eN9iaSRfg",
             },
 
             {
@@ -412,6 +447,7 @@ const infos = [
                 epSinopse:
                     "O fim está próximo. Rodeados de corredores repletos de textos escritos nas paredes, os agentes da Ordem, auxiliados por Bruno, se envolvem em mais um dos jogos de Anthony, o atual Tirigan, rumando apenas um objetivo: impedir a Desconjuração",
                 epDuration: "5h 13min",
+                src: "https://www.youtube.com/embed/reGd6QjPc9s?si=VXphvoDMEq83CSKD",
             },
 
             {
@@ -421,6 +457,7 @@ const infos = [
                 epSinopse:
                     "O Dia Final da Desconjuração chegou. Os agentes da equipe encarregada pela missão contra os Escriptas e Kian, rumam ao Orfanato Santa Menefreda para impedir Gal. Mas lá, eles aprendem muito mais sobre o que os envolve e o que tudo pode acarretar no futuro.",
                 epDuration: "4h 44min",
+                src: "https://www.youtube.com/embed/oTCZaA_cHcs?si=D4npnCDFWd0HTqLV",
             },
 
             {
@@ -430,6 +467,7 @@ const infos = [
                 epSinopse:
                     "Cellbit recebe todo o elenco para discutir a temporada. Detalhes sobre a história dos protagonistas e dúvidas dos jogadores são respondidas pelo mestre.",
                 epDuration: "3h 2min",
+                src: "https://www.youtube.com/embed/0hzThZ91sxI?si=q7yT7_jeNnxZxc6G",
             },
         ],
         data: "2020",
@@ -475,6 +513,7 @@ const infos = [
                 epSinopse:
                     "Uma nova equipe de agentes é designada para retomar um antigo caso de Arnaldo Fritz. Os veteranos Arthur Cervero e Dante se juntam a Rubens Naluti, Antônio Pontevedra e Carina Leone para seguir as pistas da possível entidade descrita como 'O Diabo' enquanto buscam informações sobre as Relíquias da Calamidade.",
                 epDuration: "4h 25min",
+                src: "https://www.youtube.com/embed/d7TleOmBKg4?si=oW-HBSwMt4cTuDUp",
             },
 
             {
@@ -484,6 +523,7 @@ const infos = [
                 epSinopse:
                     "A nova equipe retorna à base da Ordem para prosseguir na investigação sobre uma entidade diabólica e sua relação com as Relíquias da Calamidade. Uma pista vinda do grimório de Arnaldo Fritz leva os agentes para a mansão da Família Leone, na Itália, onde um tenebroso pacto os espera.",
                 epDuration: "3h",
+                src: "https://www.youtube.com/embed/TRSlNehdWzs?si=DIPvCL5o2WJd4tvo",
             },
 
             {
@@ -493,6 +533,7 @@ const infos = [
                 epSinopse:
                     "Toda história tem dois lados. A invasão à Mansão Leone, na Itália, inicia a história dos Marcados de Kian em busca de informações sobre as Relíquias da Calamidade. Mas, logo, algo além de seus poderes surge em meio às sombras, com um olhar raivoso por vingança.",
                 epDuration: "5h 2min",
+                src: "https://www.youtube.com/embed/YN4QATSyahs?si=M5bxJuAwgvfRqd1V",
             },
 
             {
@@ -502,6 +543,7 @@ const infos = [
                 epSinopse:
                     "Em um clima de luto, pactos e possíveis traições, os agentes continuam sua investigação na mansão da Família Leone. Carina se sente chamada pelo Outro Lado, onde se vê prestes a descobrir sobre a conexão com a sua marca.",
                 epDuration: "3h 50min",
+                src: "https://www.youtube.com/embed/P6Bc3pJ1qrY?si=P-t5l2vgHTc6wKRb",
             },
 
             {
@@ -511,6 +553,7 @@ const infos = [
                 epSinopse:
                     "A Ordo Realitas se transfere para a Mansão Leone, para continuar a procurar pelas Relíquias da Calamidade. Uma nova pista vinda das páginas do grimório de Arnaldo Fritz leva os agentes da Ordem até um local conhecido por tantos, manchado pelo sangue, que se recusa a ruir pelo tempo e é regido pelo caos: O Coliseu.",
                 epDuration: "4h 5min",
+                src: "https://www.youtube.com/embed/OsWeJVcojjg?si=qVZ5LPaItpwSN349",
             },
 
             {
@@ -520,6 +563,7 @@ const infos = [
                 epSinopse:
                     "A Equipe Abutres continua a investigação do Coliseu, agora aliados aos poderes das sombras de Joui Jouki. No entanto, ao descerem para a porta de Semper Clausa, eles terão que confrontar as memórias do passado para poder entender a história da Ordem da Calamidade.",
                 epDuration: "4h 18min",
+                src: "https://www.youtube.com/embed/2sxn1WyqMq0?si=InWG4AYpUypoyriK",
             },
 
             {
@@ -529,6 +573,7 @@ const infos = [
                 epSinopse:
                     "Os jogos começaram. A Equipe Abutres enfrenta os jogos de Amphitruo enquanto incorporam os guerreiros de Ordo Calamitas, para saber mais sobre as Relíquias da Calamidade. Entretanto, algo mais importante envolvendo o passado da Ordo Realitas os espera no fim do jogo.",
                 epDuration: "5h 9min",
+                src: "https://www.youtube.com/embed/ev5YLg7AJqY?si=Bauw-fHBmUflgN34",
             },
 
             {
@@ -538,6 +583,7 @@ const infos = [
                 epSinopse:
                     "As regras estão mudando. Kian guia os Escriptas pelas ruínas de Domus Aurea para encontrar informações sobre a relação das Relíquias da Calamidade e Ordo Calamitas. Entretanto, a mitologia do local promete dificultar o trabalho de seus Marcados.",
                 epDuration: "5h 2min",
+                src: "https://www.youtube.com/embed/VtElALnxnF0?si=kuXKuGpLYGjIKjiO",
             },
 
             {
@@ -547,6 +593,7 @@ const infos = [
                 epSinopse:
                     "Entre brigas, escolhas e decisões a se fazer, a Equipe Abutres se vê envolvida em um dilema urgente: decidir o destino da Calamidade e escolher com quem se aliar na guerra.",
                 epDuration: "4h 35min",
+                src: "https://www.youtube.com/embed/Dh1sYN68vOE?si=WmMYm3j7Opv0aEaH",
             },
 
             {
@@ -556,6 +603,7 @@ const infos = [
                 epSinopse:
                     "Após uma intensa batalha pelos corredores de Ordo Calamitas, a Equipe Abutres tira um tempo para descansar e se recuperar. Mas logo, um novo desafio surge a sua frente: fazer um relatório de perdas e traições para um cansado Senhor Veríssimo.",
                 epDuration: "3h 41min",
+                src: "https://www.youtube.com/embed/dcYEBL45Pdw?si=HCXe0dGuxSCy0g_-",
             },
 
             {
@@ -565,6 +613,7 @@ const infos = [
                 epSinopse:
                     "Arthur, Balu e Rubens se unem aos membros dos Hell Hunters e da Obscurité para defender a Mansão Leone de uma invasão comandada por escriptas ligados ao Tempo.",
                 epDuration: "4h 42min",
+                src: "https://www.youtube.com/embed/gxjhNekQ0l4?si=GtG-tTW1wMQHaEV-",
             },
 
             {
@@ -574,6 +623,7 @@ const infos = [
                 epSinopse:
                     "A Guerra começou. Enquanto a Ordo Realitas entra em fogo cruzado com os Escriptas, Joui, Carina e Dante rumam ao centro da arena do Coliseu para combater Kian e seus Marcados.",
                 epDuration: "4h 1min",
+                src: "https://www.youtube.com/embed/9TGMsocV_bw?si=-IhEwNfsn_24rbdM",
             },
 
             {
@@ -583,6 +633,7 @@ const infos = [
                 epSinopse:
                     "Os olhos de Kian e dos agentes da Ordo Realitas continuam a se cruzar na batalha do Coliseu. E o futuro reserva muito mais mistérios a se descobrir.",
                 epDuration: "4h 28min",
+                src: "https://www.youtube.com/embed/tdb8jng7qwQ?si=hrw7o8rAEM5_cppr",
             },
         ],
         data: "2021",
@@ -621,11 +672,85 @@ const infos = [
         ep: "8",
         listEp: [
             {
-                epTitle: "- ",
-                epNum: "Episódio ",
-                epThumb: "./img/.jpg",
+                epTitle: "Tipora - ",
+                epNum: "Episódio 1",
+                epThumb: "./img/o-segredo-na-ilha/osni-thumb-ep1.jpg",
                 epSinopse: "",
-                epDuration: "h min",
+                epDuration: "4h 55min",
+                src: "https://www.youtube.com/embed/Pf4HzTdA2WE?si=kREQwo5NwUwfjotA",
+            },
+
+            {
+                epTitle: "Praia - ",
+                epNum: "Episódio 2",
+                epThumb: "./img/o-segredo-na-ilha/osni-thumb-ep2.jpg",
+                epSinopse: "",
+                epDuration: "4h 57min",
+                src: "https://player.twitch.tv/?video=1520654805&parent=https://rpg-plus.vercel.app/",
+                
+            },
+
+            {
+                epTitle: "Pavor - ",
+                epNum: "Episódio 3",
+                epThumb: "./img/o-segredo-na-ilha/osni-thumb-ep3.jpg",
+                epSinopse: "",
+                epDuration: "5h 29min",
+                src: "",
+            },
+
+            {
+                epTitle: "Pesadelo - ",
+                epNum: "Episódio 4",
+                epThumb: "./img/o-segredo-na-ilha/osni-thumb-ep4.jpg",
+                epSinopse: "",
+                epDuration: "5h 27min",
+                src: "",
+            },
+
+            {
+                epTitle: "Penhasco - ",
+                epNum: "Episódio 5",
+                epThumb: "./img/o-segredo-na-ilha/osni-thumb-ep5.jpg",
+                epSinopse: "",
+                epDuration: "4h 45min",
+                src: "",
+            },
+
+            {
+                epTitle: "Profecia - ",
+                epNum: "Episódio 6",
+                epThumb: "./img/o-segredo-na-ilha/osni-thumb-ep6.jpg",
+                epSinopse: "",
+                epDuration: "4h 44min",
+                src: "",
+            },
+
+            {
+                epTitle: "Prosopagnosia - ",
+                epNum: "Episódio 7",
+                epThumb: "./img/o-segredo-na-ilha/osni-thumb-ep7.jpg",
+                epSinopse: "",
+                epDuration: "5h 22min",
+                src: "",
+            },
+
+            {
+                epTitle: "Florence - ",
+                epNum: "Episódio 8",
+                epThumb: "./img/o-segredo-na-ilha/osni-thumb-ep8.jpg",
+                epSinopse: "",
+                epDuration: "3h 24min",
+                src: "",
+            },
+
+            {
+                epTitle: "Revelando - ",
+                epNum: "Episódio extra",
+                epThumb: "./img/o-segredo-na-ilha/osni-thumb-extra.jpg",
+                epSinopse: "",
+                epDuration: "1h 44min",
+                src: "",
             },
         ],
         data: "2022",

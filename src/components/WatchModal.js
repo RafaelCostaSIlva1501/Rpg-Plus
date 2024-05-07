@@ -10,16 +10,17 @@ const WatchModal = () => {
                 <section className="watch-modal">
                     <button onClick={watchModalOFF}>Fechar</button>
                     <iframe
-                        title={infos[index].title}
-                        src={infos[index].listEp[0].src}
-                        width="100%"
-                        height="300px"
-                        allow="fullscreen"
-                        allowFullScreen
+                        title="Video Player"
+                        src={infos[index].listEp[1].src}
+                        width="400px"
+                        height="300"
+                        allowfullscreen="true" 
                     ></iframe>
                 </section>
             </>
         );
+    } else {
+        return null;
     }
 };
 
