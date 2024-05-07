@@ -12,6 +12,7 @@ const infos = [
                 epSinopse:
                     "Três detetives paranormais são convocados para investigar um misterioso caso de um bombeiro que foi encontrado sem vida numa escola.",
                 epDuration: "6h 26min",
+                src: "https://www.youtube.com/watch?v=uplnCYc0fDg&t=295s&pp=ygUSYSBvcmRlbSBwYXJhbm9ybWFs",
             },
 
             {
@@ -21,6 +22,7 @@ const infos = [
                 epSinopse:
                     "Cercados por incertezas, os membros da ordem retornam ao local de sua missão, onde seus caminhos mudarão completamente.",
                 epDuration: "3h 31min",
+                src: "https://www.youtube.com/watch?v=4Ud5QQ2IEgU&t=1583s",
             },
 
             {
@@ -30,6 +32,7 @@ const infos = [
                 epSinopse:
                     "A primeira missão da Ordem da Verdade chega ao confronto final.",
                 epDuration: "3h 57min",
+                src: "https://www.youtube.com/watch?v=dtcsHSAEik8&t=2s",
             },
         ],
         data: "2020",
@@ -682,11 +685,27 @@ const infos = [
         ep: "2",
         listEp: [
             {
-                epTitle: "- ",
+                epTitle: " Primeira parte - ",
+                epNum: "Episódio 1",
+                epThumb: "./img/quarentena/quarentena-thumb-ep1.jpg",
+                epSinopse: "Hoje é o dia que irá acontecer. Cinco pessoas entram nos escritórios das Indústrias Panacea tentando adquirir um dinheiro rápido. Mas logo, eles percebem que isso não foi uma boa ideia.",
+                epDuration: "5h 24min",
+            },
+
+            {
+                epTitle: "Parte final - ",
+                epNum: "Episódio 2",
+                epThumb: "./img/quarentena/quarentena-thumb-ep2.jpg",
+                epSinopse: "O verdadeiro terror começa agora. Os cinco jovens se juntam a Micael Cruzes para investigar o local isolado onde eles estão. E enquanto isso, um temeroso perigo, pior do que os Infectados, os espreita entre a neve.",
+                epDuration: "5h 39min",
+            },
+
+            {
+                epTitle: " Revelando  - ",
                 epNum: "Episódio ",
-                epThumb: "./img/.jpg",
-                epSinopse: "",
-                epDuration: "h min",
+                epThumb: "./img/quarentena/quarentena-thumb-extra.jpg",
+                epSinopse: "Cellbit reúne todo o elenco para discutirem sobre o especial em um último encontro, mostrando artes inéditas e comentando os eventos e detalhes que passaram despercebidos pelos jogadores e telespectadores durante essa história.",
+                epDuration: "1h 40min",
             },
         ],
         data: "2023",
@@ -959,11 +978,27 @@ const infos = [
         ep: "3",
         listEp: [
             {
-                epTitle: "- ",
-                epNum: "Episódio ",
-                epThumb: "./img/.jpg",
+                epTitle: "das Hamletmachine - ",
+                epNum: "Episódio 0",
+                epThumb: "./img/espiral/espiral-thumb-ep0.jpg",
                 epSinopse: "",
-                epDuration: "h min",
+                epDuration: "2h 56min",
+            },
+
+            {
+                epTitle: "Choro de Ofélia - ",
+                epNum: "Episódio 1",
+                epThumb: "./img/espiral/espiral-thumb-ep1.jpg",
+                epSinopse: "",
+                epDuration: "2h 14min",
+            },
+
+            {
+                epTitle: "Claudios, Redentor - ",
+                epNum: "Episódio 2",
+                epThumb: "./img/espiral/espiral-thumb-ep2.jpg",
+                epSinopse: "",
+                epDuration: "2h 16min",
             },
         ],
         data: "2022",
@@ -990,11 +1025,19 @@ const infos = [
         ep: "2",
         listEp: [
             {
-                epTitle: "- ",
-                epNum: "Episódio ",
-                epThumb: "./img/.jpg",
-                epSinopse: "",
-                epDuration: "h min",
+                epTitle: "Primeira parte - ",
+                epNum: "Episódio 1",
+                epThumb: "./img/o-espelho-do-pavao/oedp-thumb-ep1.jpg",
+                epSinopse: "O paranimal não vem pra nossa realidade de maneira fácil. É uma ameaça amorfa, escondida por trás de uma fina membrana, como um espelho refletindo nossa realidade distorcida, repleta de caos e fora de controle. Em março de 1964, um grupo de estranhos é convidado para um lugar isolado por um misterioso coronel obcecado por jogos e pelo oculto. Onde estará a chave para abrir sua Caixa de Pandora?",
+                epDuration: "2h 23min",
+            },
+
+            {
+                epTitle: "Final - ",
+                epNum: "Episódio 2",
+                epThumb: "./img/o-espelho-do-pavao/oedp-thumb-ep2.jpg",
+                epSinopse: "Quatro estranhos com um passado misterioso são convocados para participar de um jogo na pequena cidade de Minas do Camaquã. Chegando lá, Antonella, JP, Opal e Espencio descobrem que seu anfitrião está morto e o responsável parece estar ligado a uma lenda da região. Quem será o Fantasma Cinzento?",
+                epDuration: "4h 30min",
             },
         ],
         data: "2023",
@@ -1002,7 +1045,7 @@ const infos = [
         wallpaper: ["./img/o-espelho-do-pavao/oedp-wallpaper-1.jpg"],
         logo: "./img/o-espelho-do-pavao/oedp-logo.png",
         sinopse:
-            "4 individuos recebem um convite misterioso para uma mansão na cidade",
+            "O Espelho do Pavão é o RPG que comemora o 100° episódio do OrdemCast.",
         elenco: [
             "Stefano P. (Mestre), ",
             "Nan (Opal Alves), ",

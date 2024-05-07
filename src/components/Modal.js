@@ -5,7 +5,7 @@ import infos from "./dados";
 
 //Componente
 export const Modal = () => {
-    const { modalState, modalOFF, index } = useModal();
+    const { modalState, modalOFF, index, watchModalON } = useModal();
 
     if (modalState) {
         return (
@@ -61,7 +61,7 @@ export const Modal = () => {
 
                             <div className="container-eps">
                                 {infos[index].listEp.map((ep, index) => (
-                                    <div key={index} className="episode">
+                                    <div key={index} className="episode" onClick={watchModalON}>
                                         <h4>{`${ep.epTitle} ${ep.epNum}`}</h4>
 
                                         <div className="img-sinopse">

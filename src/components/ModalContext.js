@@ -7,12 +7,13 @@ const ModalContext = createContext();
 //Criar componente provedor
 export const ModalProvider = ({ children }) => {
     const [modalState, setModalState] = useState(false);
-    const [searchState, setSearchState] = useState(false)
+    const [searchState, setSearchState] = useState(false);
+    const [watchState, setWatchState] = useState(false);
     const [index, setIndex] = useState(null);
 
     const modalON = (index) => {
         setModalState(true);
-        setIndex(index)
+        setIndex(index);
     };
 
     const modalOFF = () => {
@@ -21,15 +22,36 @@ export const ModalProvider = ({ children }) => {
     };
 
     const searchModalON = () => {
-        setSearchState(true)
-    }
+        setSearchState(true);
+    };
 
     const searchModalOFF = () => {
-        setSearchState(false)
-    }
+        setSearchState(false);
+    };
+
+    const watchModalON = () => {
+        setWatchState(true);
+    };
+
+    const watchModalOFF = () => {
+        setWatchState(false);
+    };
 
     return (
-        <ModalContext.Provider value={{ modalState, modalON, modalOFF, index, searchState, searchON: searchModalON, searchOFF: searchModalOFF }}>
+        <ModalContext.Provider
+            value={{
+                modalState,
+                modalON,
+                modalOFF,
+                index,
+                searchState,
+                searchModalON,
+                searchModalOFF,
+                watchState,
+                watchModalON,
+                watchModalOFF,
+            }}
+        >
             {children}
         </ModalContext.Provider>
     );

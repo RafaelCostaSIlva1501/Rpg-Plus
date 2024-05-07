@@ -4,7 +4,7 @@ import Articles from "./Articles";
 import infos from "./dados";
 
 const Search = () => {
-    const { searchState, searchOFF, modalON, index } = useModal();
+    const { searchState, searchModalOFF, modalON } = useModal();
 
     const [searchTerm, setSearchTerm] = useState("");
 
@@ -21,7 +21,7 @@ const Search = () => {
             {searchState && (
                 <section className="search-modal">
                     <div className="search-input">
-                        <button onClick={() => searchOFF()}>
+                        <button onClick={() => searchModalOFF()}>
                             <span className="material-symbols-outlined">
                                 arrow_back
                             </span>

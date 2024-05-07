@@ -8,6 +8,7 @@ import Header from "./components/Header.js";
 import Main from "./components/Main.js";
 import Section from "./components/Section.js";
 import Modal from "./components/Modal.js";
+import WatchModal from "./components/WatchModal.js";
 import Search from "./components/Search.js";
 
 import { ModalProvider } from "./components/ModalContext";
@@ -22,6 +23,7 @@ root.render(
             <Main />
             <Section />
             <Modal />
+            <WatchModal />
             <Search />
         </ModalProvider>
     </React.StrictMode>
