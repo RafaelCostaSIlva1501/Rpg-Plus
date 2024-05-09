@@ -686,7 +686,7 @@ const infos = [
                 epThumb: "./img/o-segredo-na-ilha/osni-thumb-ep2.jpg",
                 epSinopse: "Os Florence decidem aproveitar o dia para relaxar um pouco na praia de Tipora. Mas um incidente selvagem, uma confraternização do vilarejo e um segredo guardado por toda a ilha prometem fazer o dia ficar de cabeça para baixo.",
                 epDuration: "4h 57min",
-                src: "https://player.twitch.tv/?video=1520654805&parent=rpg-plus.vercel.app/",
+                src: "https://player.twitch.tv/?video=1520654805&parent=https://rpg-plus.vercel.app/",
             },
 
             {
