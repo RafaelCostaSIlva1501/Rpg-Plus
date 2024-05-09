@@ -677,7 +677,7 @@ const infos = [
                 epThumb: "./img/o-segredo-na-ilha/osni-thumb-ep1.jpg",
                 epSinopse: "A ilha de Tipora recebe uma família liderada pelo pai, um avaliador de artes que segue em direção à mansão de um famoso pintor que desapareceu há muito tempo atrás sem deixar rastros. Vários segredos e mistérios esperam essa família dentro da mansão que permaneceu fechada por tantos anos.",
                 epDuration: "4h 55min",
-                src: "https://www.youtube.com/embed/Pf4HzTdA2WE?si=kREQwo5NwUwfjotA",
+                src: "https://player.twitch.tv/?video=1514072992&parent=rpg-plus.vercel.app",
             },
 
             {

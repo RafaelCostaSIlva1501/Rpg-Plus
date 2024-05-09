@@ -11,7 +11,7 @@ const WatchModal = () => {
                     <button onClick={watchModalOFF}>Fechar</button>
                     <iframe
                         title="Video Player"
-                        src={infos[index].listEp[1].src}
+                        src={infos[index].listEp[0].src}
                         width="400px"
                         height="300"
                         allowfullscreen="true" 
