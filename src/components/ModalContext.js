@@ -1,5 +1,6 @@
 //Importar módulos
 import React, { createContext, useContext, useState } from "react";
+import infos from "./dados";
 
 //Criar contexto
 const ModalContext = createContext();
@@ -9,6 +10,7 @@ export const ModalProvider = ({ children }) => {
     const [modalState, setModalState] = useState(false);
     const [searchState, setSearchState] = useState(false);
     const [watchState, setWatchState] = useState(false);
+    const [watchIndex, setWatchIndex] = useState(false);
     const [index, setIndex] = useState(null);
 
     const modalON = (index) => {
@@ -29,7 +31,9 @@ export const ModalProvider = ({ children }) => {
         setSearchState(false);
     };
 
-    const watchModalON = () => {
+    const watchModalON = (episode) => {
+        const idx = infos[index].listEp.indexOf(episode);
+        setWatchIndex(idx);
         setWatchState(true);
     };
 
@@ -50,6 +54,8 @@ export const ModalProvider = ({ children }) => {
                 watchState,
                 watchModalON,
                 watchModalOFF,
+                watchIndex,
+                setWatchIndex,
             }}
         >
             {children}

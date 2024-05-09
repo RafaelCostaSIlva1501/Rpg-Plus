@@ -3,19 +3,19 @@ import { useModal } from "./ModalContext";
 import infos from "./dados";
 
 const WatchModal = () => {
-    const { watchState, watchModalOFF, index } = useModal();
+    const { watchState, watchModalOFF, index, watchIndex } = useModal();
     if (watchState) {
         return (
             <>
                 <section className="watch-modal">
-                    <button onClick={watchModalOFF}>Fechar</button>
                     <iframe
                         title="Video Player"
-                        src={infos[index].listEp[0].src}
+                        src={infos[index].listEp[watchIndex].src}
                         width="400px"
                         height="300"
                         allowfullscreen="true" 
                     ></iframe>
+                    <button onClick={watchModalOFF}>Fechar</button>
                 </section>
             </>
         );

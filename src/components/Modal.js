@@ -60,21 +60,29 @@ export const Modal = () => {
                             <h1>Lista de episódios</h1>
 
                             <div className="container-eps">
-                                {infos[index].listEp.map((ep, index) => (
-                                    <div key={index} className="episode" onClick={watchModalON}>
-                                        <h4>{`${ep.epTitle} ${ep.epNum}`}</h4>
+                                <div className="container-eps">
+                                    {infos[index].listEp.map((ep, idx) => (
+                                        <div
+                                            key={idx}
+                                            className="episode"
+                                            onClick={() => watchModalON(ep)}
+                                        >
+                                            <h4>{`${ep.epTitle} ${ep.epNum}`}</h4>
 
-                                        <div className="img-sinopse">
-                                            <img
-                                                src={ep.epThumb}
-                                                alt={`Episódio ${ep.epNum}`}
-                                            />
-                                            <p>{ep.epSinopse}</p>
+                                            <div className="img-sinopse">
+                                                <img
+                                                    src={ep.epThumb}
+                                                    alt={`Episódio ${ep.epNum}`}
+                                                />
+                                                <p>{ep.epSinopse}</p>
+                                            </div>
+
+                                            <span>
+                                                Duração: {ep.epDuration}
+                                            </span>
                                         </div>
-
-                                        <span>Duração: {ep.epDuration}</span>
-                                    </div>
-                                ))}
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     </section>
